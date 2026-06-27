@@ -1,0 +1,15 @@
+# Obsidian
+.obsidian/
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Temp
+*.tmp
+*.temp
