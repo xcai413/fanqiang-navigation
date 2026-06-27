@@ -30,29 +30,26 @@ Updated daily, ready to use:
 
 ### 🥇 Top Picks
 
-| Provider | Price/mo | Features |
-|----------|----------|----------|
-| [EdgeNova](https://bellsteven5489.edgenovaaff.cc/#/register?code=TBD) | ¥25+ | IEPL dedicated line |
-| [YangFan Cloud](https://ml.yfqz1.net/register?code=TBD) | ¥16+ | IPLC international line |
-| [JFCloud](https://ml.jfqz1.net?code=TBD) | ¥14+ | Trojan protocol |
-| [OldCat Cloud](https://33.33laomao.com/?path=register&code=TBD) | ¥20+ | 8 years stable operation |
-| [FliggyCloud](https://fliggycloud.pro/#/register?code=TBD) | ¥20+ | 3000Mbps bandwidth |
-| [FlyingBird](https://fbinv02.fbaff.cc/auth/register?code=TBD) | ¥15+ | 70+ nodes, all unlock |
+| Provider | Price/mo | Features | Link |
+|----------|----------|----------|------|
+| [EdgeNova](https://calvior.edgenovayun.cc/#/register?code=TlIQTkUu) | ¥25+ | IEPL dedicated line | [Register](https://calvior.edgenovayun.cc/#/register?code=TlIQTkUu) |
+| [YangFan Cloud](https://ml.yfqz1.net/register?code=6VzmOza9) | ¥16+ | IPLC international line | [Register](https://ml.yfqz1.net/register?code=6VzmOza9) |
+| [OldCat Cloud](https://33.33laomao.com/#/register?code=YAORkr6P) | ¥20+ | 8 years stable | [Register](https://33.33laomao.com/#/register?code=YAORkr6P) |
+| [FliggyCloud](https://fliggycloud.pro/#/register?code=xHtAnDsO) | ¥20+ | 3000Mbps bandwidth | [Register](https://fliggycloud.pro/#/register?code=xHtAnDsO) |
+| [FlyingBird](https://fbinv02.fbaff.cc/auth/register?code=E6pNlVmL) | ¥15+ | 70+ nodes unlocked | [Register](https://fbinv02.fbaff.cc/auth/register?code=E6pNlVmL) |
 
 ### 🥈 Value Picks
 
-| Provider | Price/mo | Features |
-|----------|----------|----------|
-| [YouXin Cloud](https://ml.yxqz1.net/#/register?code=TBD) | ¥15+ | Tunnel relay |
-| [DengTa Cloud](https://dengta.xn--xhq8sm16c5ls.com/#/register?code=TBD) | ¥60/6mo | IEPL 48+ nodes |
-| [YiYunTi](https://i03.1ytaff.com/register?aff=TBD) | ¥15+ | Best value |
+| Provider | Price/mo | Features | Link |
+|----------|----------|----------|------|
+| [YouXin Cloud](https://www.youxin66.net/#/register?code=EvElbiKo) | ¥15+ | Tunnel relay | [Register](https://www.youxin66.net/#/register?code=EvElbiKo) |
+| [Pocket Monster](https://love.p6m6.com/#/register?code=80ca9rPe) | ¥7.9+ | Free 60GB/month | [Register](https://love.p6m6.com/#/register?code=80ca9rPe) |
 
-### 🥉 VPS Self-hosted
+### 🔟 Budget
 
-| Service | Price/mo | Features |
-|---------|----------|----------|
-| [Just My Socks](https://justmysocks6.net/members/aff.php?aff=TBD) | $5.88+ | Bandwagon official |
-| [Bandwagon CN2 GIA](https://bwh88.net/aff.php?aff=TBD&pid=87) | $49.99/yr | Self-hosted server |
+| Provider | Price/mo | Features | Link |
+|----------|----------|----------|------|
+| [One Yuan](https://xn--4gq62f52gdss.top/#/register?code=uAELTwY0) | ~¥10 | Cheapest option | [Register](https://xn--4gq62f52gdss.top/#/register?code=uAELTwY0) |
 
 ---
 
@@ -60,12 +57,12 @@ Updated daily, ready to use:
 
 | Platform | Client | Link |
 |----------|--------|------|
-| 🪟 Windows | Clash Verge | [Tutorial](./guides/windows/clash-verge.md) |
-| 🪟 Windows | v2rayN | [Tutorial](./guides/windows/v2rayN.md) |
-| 🍎 macOS | ClashX Pro | [Tutorial](./guides/mac/clashx-pro.md) |
-| 📱 Android | Clash Meta | [Tutorial](./guides/android/clash-meta.md) |
-| 📱 Android | v2rayNG | [Tutorial](./guides/android/v2rayNG.md) |
-| 📱 iOS | Shadowrocket | [Tutorial](./guides/ios/shadowrocket.md) |
+| Windows | Clash Verge | [Tutorial](./guides/windows/clash-verge.md) |
+| Windows | v2rayN | [Tutorial](./guides/windows/v2rayN.md) |
+| macOS | ClashX Pro | [Tutorial](./guides/mac/clashx-pro.md) |
+| Android | Clash Meta | [Tutorial](./guides/android/clash-meta.md) |
+| Android | v2rayNG | [Tutorial](./guides/android/v2rayNG.md) |
+| iOS | Shadowrocket | [Tutorial](./guides/ios/shadowrocket.md) |
 
 ---
 

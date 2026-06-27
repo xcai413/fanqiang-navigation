@@ -33,36 +33,26 @@
 
 ### 🥇 旗舰推荐
 
-| 机场 | 月费 | 特点 |
-|------|------|------|
-| [边缘Nova](https://bellsteven5489.edgenovaaff.cc/#/register?code=待注册) | 25元起 | IEPL专线，高性价比 |
-| [杨帆云](https://ml.yfqz1.net/register?code=待注册) | 16元起 | IPLC国际专线 |
-| [疾风云](https://ml.jfqz1.net?code=待注册) | 14元起 | Trojan协议，抗封锁强 |
-| [老猫云](https://33.33laomao.com/?path=register&code=待注册) | 20元起 | 8年稳定运营老牌 |
-| [飞天猪](https://fliggycloud.pro/#/register?code=待注册) | 20元起 | 大带宽，3000Mbps |
-| [FlyingBird](https://fbinv02.fbaff.cc/auth/register?code=待注册) | 15元起 | 70+节点全解锁 |
+| 机场 | 月费 | 特点 | 注册 |
+|------|------|------|------|
+| [边缘Nova](https://calvior.edgenovayun.cc/#/register?code=TlIQTkUu) | 25元起 | IEPL专线，高性价比 | [注册](https://calvior.edgenovayun.cc/#/register?code=TlIQTkUu) |
+| [杨帆云](https://ml.yfqz1.net/register?code=6VzmOza9) | 16元起 | IPLC国际专线 | [注册](https://ml.yfqz1.net/register?code=6VzmOza9) |
+| [老猫云](https://33.33laomao.com/#/register?code=YAORkr6P) | 20元起 | 8年稳定运营 | [注册](https://33.33laomao.com/#/register?code=YAORkr6P) |
+| [飞天猪](https://fliggycloud.pro/#/register?code=xHtAnDsO) | 20元起 | 大带宽3000Mbps | [注册](https://fliggycloud.pro/#/register?code=xHtAnDsO) |
+| [FlyingBird](https://fbinv02.fbaff.cc/auth/register?code=E6pNlVmL) | 15元起 | 70+节点全解锁 | [注册](https://fbinv02.fbaff.cc/auth/register?code=E6pNlVmL) |
 
 ### 🥈 精品推荐
 
-| 机场 | 月费 | 特点 |
-|------|------|------|
-| [优信云](https://ml.yxqz1.net/#/register?code=待注册) | 15元起 | 公网隧道中转 |
-| [灯塔云](https://dengta.xn--xhq8sm16c5ls.com/#/register?code=待注册) | 60元/半年 | IEPL专线48+节点 |
-| [宝可梦](https://love.p6m6.com/#/register?code=待注册) | 7.9元起 | 白嫖60G/月 |
-| [一云梯](https://i03.1ytaff.com/register?aff=待注册) | 15元起 | 性价比之选 |
+| 机场 | 月费 | 特点 | 注册 |
+|------|------|------|------|
+| [优信云](https://www.youxin66.net/#/register?code=EvElbiKo) | 15元起 | 公网隧道中转 | [注册](https://www.youxin66.net/#/register?code=EvElbiKo) |
+| [宝可梦](https://love.p6m6.com/#/register?code=80ca9rPe) | 7.9元起 | 白嫖60G/月 | [注册](https://love.p6m6.com/#/register?code=80ca9rPe) |
 
-### 🥉 VPS 自建
+### 🔟 入门推荐
 
-| 服务 | 月费 | 特点 |
-|------|------|------|
-| [Just My Socks](https://justmysocks6.net/members/aff.php?aff=待注册) | $5.88起 | 搬瓦工官方，不怕墙 |
-| [搬瓦工 CN2 GIA](https://bwh88.net/aff.php?aff=待注册&pid=87) | $49.99/年 | 三网直连自建服务器 |
-
-### 🔟 入门级
-
-| 机场 | 月费 | 特点 |
-|------|------|------|
-| [一元机场](https://xn--4gq62f52gdss.ink/#/register?code=待注册) | ~10元 | 最便宜，适合轻度使用 |
+| 机场 | 月费 | 特点 | 注册 |
+|------|------|------|------|
+| [一元机场](https://xn--4gq62f52gdss.top/#/register?code=uAELTwY0) | ~10元 | 最便宜，适合轻度使用 | [注册](https://xn--4gq62f52gdss.top/#/register?code=uAELTwY0) |
 
 ---
 
@@ -87,7 +77,7 @@
 - 本项目仅做信息聚合，不提供任何翻墙服务
 - 所有付费推荐链接均为推广链接，通过链接注册我会获得返佣
 - 请遵守当地法律法规，合理使用网络工具
-- 机场服务可能随时变化，请以官网最新信息为准
+- 服务可能随时变化，请以官网最新信息为准
 
 [查看完整声明](./DISCLAIMER.md)
 
