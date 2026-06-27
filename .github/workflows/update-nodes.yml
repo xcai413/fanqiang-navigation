@@ -1,45 +1,33 @@
-# 每日免费节点更新
-
 name: Update Free Nodes
 
 on:
   schedule:
-    - cron: '0 */6 * * *'  # 每6小时更新一次
-  workflow_dispatch:        # 手动触发
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
 
 jobs:
   update:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
 
-      - name: Download free proxy lists
-        run: |
-          # Clash proxies
-          curl -sL "https://raw.githubusercontent.com/freefq/free/master/v2" -o free/v2ray.txt.tmp 2>/dev/null || true
-          
-          # v2ray subscription
-          curl -sL "https://raw.githubusercontent.com/Pawdroid/Free-servers/main/sub" -o free/v2ray.txt.tmp 2>/dev/null || true
-          
-          # Move temp files
-          [ -f free/v2ray.txt.tmp ] && mv free/v2ray.txt.tmp free/v2ray.txt 2>/dev/null || true
+      - name: Install dependencies
+        run: pip install pyyaml
 
-      - name: Check for changes
-        id: changed
-        run: |
-          git status --porcelain
-          if git diff --quiet; then
-            echo "changed=false" >> $GITHUB_OUTPUT
-          else
-            echo "changed=true" >> $GITHUB_OUTPUT
-          fi
+      - name: Fetch and aggregate free nodes
+        run: python scripts/update-nodes.py
 
       - name: Commit and push
-        if: steps.changed.outputs.changed == 'true'
         run: |
           git config user.name "xcai413"
           git config user.email "xcai413@users.noreply.github.com"
           git add free/
-          git commit -m "🔄 Update free proxy nodes"
-          git push
+          if git diff --cached --quiet; then
+            echo "No changes"
+          else
+            git commit -m "🔄 自动更新免费节点 ($(date +'%Y-%m-%d %H:%M UTC'))"
+            git push
+          fi
