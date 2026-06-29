@@ -51,6 +51,14 @@ Updated daily, ready to use:
 |----------|----------|----------|------|
 | [One Yuan](https://xn--4gq62f52gdss.top/#/register?code=uAELTwY0) | ~¥10 | Cheapest option | [Register](https://xn--4gq62f52gdss.top/#/register?code=uAELTwY0) |
 
+### ⏳ One-Time Plans (no expiry, no auto-renewal)
+
+| Provider | Starting Price | Features | Link |
+|----------|---------------|----------|------|
+| [Mojie](https://mojie.app/register?aff=l41z223M) 🔥 | ¥1 / 1GB | One-time payment, never expires, unlimited speed & devices, streaming support | [Register](https://mojie.app/register?aff=l41z223M) |
+
+> 🔥 **Why Mojie?** Unlike monthly plans that expire even when unused. 130GB for ¥19.9 lasts a year. From 1GB (¥1) to 10TB (¥888), all plans: unlimited speed, unlimited devices.
+
 ---
 
 ## 📖 Client Tutorials

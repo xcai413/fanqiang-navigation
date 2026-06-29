@@ -52,7 +52,15 @@
 
 | 机场 | 月费 | 特点 | 注册 |
 |------|------|------|------|
-| [一元机场](https://xn--4gq62f52gdss.top/#/register?code=uAELTwY0) | ~10元 | 最便宜，适合轻度使用 | [注册](https://xn--4gq62f52gdss.top/#/register?code=uAELTwY0) |
+| [一元机场](https://xn--4gq62f52gdss.top/#/register?code=uAELTwY0) | ~¥10 | 最便宜，适合轻度使用 | [注册](https://xn--4gq62f52gdss.top/#/register?code=uAELTwY0) |
+
+### ⏳ 不限时套餐（用完即止，不自动扣费）
+
+| 机场 | 起步价 | 特点 | 注册 |
+|------|--------|------|------|
+| [Mojie](https://mojie.app/register?aff=l41z223M) 🔥 | ¥1 / 1GB | 一次性付费、永不过期、不限速不限设备、支持流媒体 | [注册](https://mojie.app/register?aff=l41z223M) |
+
+> 🔥 **为什么选 Mojie？** 不像月付机场不用也会过期。买 130GB = ¥19.9，用一年都行。轻度用户首选。套餐从 1GB(¥1) 到 10TB(¥888)，全程无限速、不限制设备数。
 
 ---
 
