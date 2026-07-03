@@ -1,29 +1,24 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1ED\U0001F1F0_HK_\u4E2D\u56FD\u9999\u6E2F"
-  password: 792e0bdb-01db-450c-94c4-925151eb396e
-  port: 19000
-  server: ss.046.node-for-bigairport.win
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: "\U0001F1F7\U0001F1FA_RU_\u4FC4\u7F57\u65AF"
+  port: 443
+  reality-opts:
+    public-key: Loc9rXCMgSkksa4TGr203UCppZh9epDs8tdTVCjiCRw
+    short-id: c39843c687af3383
+  server: 2.26.8.55
+  servername: lk-tra.riseads.in
   skip-cert-verify: true
-  type: ss
+  tls: true
+  type: vless
   udp: true
-- alterId: 2
-  cipher: auto
-  name: "\U0001F1ED\U0001F1F0_HK_\u4E2D\u56FD\u9999\u6E2F->\U0001F1EF\U0001F1F5_JP_\u65E5\
-    \u672C"
-  port: 30806
-  server: v6.hdacd.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  uuid: 10ea33f2-1a66-4dec-99f2-8068a6b56a45
 - alterId: 2
   cipher: auto
   name: "\U0001F1ED\U0001F1F0_HK_\u4E2D\u56FD\u9999\u6E2F->\U0001F1FA\U0001F1F8_US_\u7F8E\
     \u56FD"
-  port: 30824
-  server: v24.hdacd.com
+  port: 30809
+  server: v9.hdacd.com
   skip-cert-verify: true
   tls: false
   type: vmess
@@ -31,7 +26,7 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 2
   cipher: auto
-  name: "\U0001F1ED\U0001F1F0_HK_\u4E2D\u56FD\u9999\u6E2F_1"
+  name: "\U0001F1ED\U0001F1F0_HK_\u4E2D\u56FD\u9999\u6E2F"
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: true
@@ -39,27 +34,33 @@ proxies:
   type: vmess
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- client-fingerprint: chrome
-  http-opts:
-    path:
-    - /@monacoVPN@monacoVPN@monacoVPN@monacoVPN
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E8\U0001F1ED_CH_\u745E\u58EB"
-  network: http
-  port: 22
-  server: 172.65.111.43
+- client-fingerprint: firefox
+  name: "\U0001F1F5\U0001F1F1_PL_\u6CE2\u5170"
+  port: 443
+  reality-opts:
+    public-key: hgQ3Wa09f9ectEos7QyC1LQ8bBq8lEAcAtGIDFTKin0
+    short-id: c0
+  server: 45.144.50.249
+  servername: www.intel.com
   skip-cert-verify: true
-  tls: false
+  tls: true
   type: vless
   udp: true
-  uuid: monacoVPN
-- name: "\U0001F1EF\U0001F1F5_JP_\u65E5\u672C"
-  password: PI36027154
+  uuid: a2415a12-3f92-4636-9823-9828d3ceb818
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: "\U0001F1F7\U0001F1FA_RU_\u4FC4\u7F57\u65AF_1"
   port: 443
-  server: large-baboon.rooster465.autos
+  reality-opts:
+    public-key: Loc9rXCMgSkksa4TGr203UCppZh9epDs8tdTVCjiCRw
+    short-id: c39843c687af3383
+  server: lk-tra.riseads.in
+  servername: lk-tra.riseads.in
   skip-cert-verify: true
-  tls: false
-  type: trojan
+  tls: true
+  type: vless
   udp: true
+  uuid: 10ea33f2-1a66-4dec-99f2-8068a6b56a45
 - alterId: 2
   cipher: auto
   name: "\U0001F1ED\U0001F1F0_HK_\u4E2D\u56FD\u9999\u6E2F->\U0001F1EB\U0001F1F7_FR_\u6CD5\
@@ -82,6 +83,50 @@ proxies:
   type: vmess
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- client-fingerprint: edge
+  flow: xtls-rprx-vision
+  name: "\U0001F1F8\U0001F1EA_SE_\u745E\u5178"
+  port: 1443
+  reality-opts:
+    public-key: LM5y6SHLrbW00XvaN030dTyz8OFsxpb7mjFb84p3LUw
+    short-id: 2ce30d4ba28b2e97
+  server: swed-yott.red-panda.top
+  servername: www.github.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f097453b-5fa6-48a7-a164-7fe7ef89a140
+- name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD"
+  password: PI36027154
+  port: 443
+  server: pro-tortoise.rooster465.autos
+  skip-cert-verify: true
+  tls: true
+  type: trojan
+  udp: true
+- alterId: 2
+  cipher: auto
+  name: "\U0001F1ED\U0001F1F0_HK_\u4E2D\u56FD\u9999\u6E2F->\U0001F1FA\U0001F1F8_US_\u7F8E\
+    \u56FD_2"
+  port: 30804
+  server: v4.hdacd.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 2
+  cipher: auto
+  name: "\U0001F1ED\U0001F1F0_HK_\u4E2D\u56FD\u9999\u6E2F->\U0001F1FA\U0001F1F8_US_\u7F8E\
+    \u56FD_3"
+  port: 30824
+  server: v24.hdacd.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: "\U0001F1F7\U0001F1FA_RU_\u4FC4\u7F57\u65AF->\U0001F1F3\U0001F1F1_NL_\u8377\
@@ -97,103 +142,3 @@ proxies:
   type: vless
   udp: true
   uuid: 91d0fa43-e557-43e7-a731-f0c3d1fb306a
-- alterId: 2
-  cipher: auto
-  name: "\U0001F1ED\U0001F1F0_HK_\u4E2D\u56FD\u9999\u6E2F_2"
-  port: 30829
-  server: v29.hdacd.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: "\U0001F1ED\U0001F1F0_HK_\u4E2D\u56FD\u9999\u6E2F_3"
-  password: OccIqeORGQwiNkwS
-  port: 19128
-  server: jpbgp.netvigor.cc
-  skip-cert-verify: true
-  sni: yazhou10.dynu.net
-  tls: true
-  type: trojan
-  udp: true
-- alterId: 2
-  cipher: auto
-  name: "\U0001F1ED\U0001F1F0_HK_\u4E2D\u56FD\u9999\u6E2F->\U0001F1EC\U0001F1E7_GB_\u82F1\
-    \u56FD"
-  port: 30836
-  server: v36.hdacd.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: "\U0001F1F7\U0001F1FA_RU_\u4FC4\u7F57\u65AF->\U0001F1E9\U0001F1EA_DE_\u5FB7\
-    \u56FD"
-  port: 1111
-  reality-opts:
-    public-key: YuhNgtj_Tf8WNLiSB2bNJKPvfwmqa6PNRpbP8TvNkzA
-  server: 78.159.250.32
-  servername: api-maps.yandex.ru
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9d748910-8306-411a-9b2e-11f0a2a4486f
-- name: "\U0001F1E6\U0001F1FA_AU_\u6FB3\u5927\u5229\u4E9A"
-  password: PI36027154
-  port: 443
-  server: tight-possum.rooster465.autos
-  skip-cert-verify: true
-  tls: true
-  type: trojan
-  udp: true
-- name: "\U0001F1FB\U0001F1F3_VN_\u8D8A\u5357"
-  obfs: salamander
-  obfs-password: eNM/NfxTsBqQIKcN0ezARS1z0f5mIxRd9GSwhVsyJlo=
-  password: f7cb07a0-e6f9-4d22-a60e-c61854450c89
-  port: 443
-  server: vn2.yuntong.click
-  skip-cert-verify: true
-  sni: vn2.yuntong.click
-  type: hysteria2
-  udp: true
-- alterId: 2
-  cipher: auto
-  name: "\U0001F1ED\U0001F1F0_HK_\u4E2D\u56FD\u9999\u6E2F->\U0001F1FA\U0001F1F8_US_\u7F8E\
-    \u56FD_2"
-  port: 30809
-  server: v9.hdacd.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- cipher: chacha20-ietf
-  name: "\U0001F1ED\U0001F1F0_HK_\u4E2D\u56FD\u9999\u6E2F_4"
-  password: asd123456
-  port: 8388
-  server: 103.149.183.113
-  skip-cert-verify: true
-  type: ss
-  udp: true
-- alterId: 2
-  cipher: auto
-  name: "\U0001F1ED\U0001F1F0_HK_\u4E2D\u56FD\u9999\u6E2F->\U0001F1FA\U0001F1F8_US_\u7F8E\
-    \u56FD_3"
-  port: 30804
-  server: v4.hdacd.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1EF\U0001F1F5_JP_\u65E5\u672C_1"
-  password: 792e0bdb-01db-450c-94c4-925151eb396e
-  port: 19001
-  server: ss.043.node-for-bigairport.win
-  skip-cert-verify: true
-  type: ss
-  udp: true
