@@ -1,51 +1,59 @@
 proxies:
-- client-fingerprint: chrome
+- cipher: aes-256-cfb
   name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD"
-  network: ws
+  password: amazonskr05
   port: 443
-  server: wasmer-earth.jzy88.top
-  servername: wasmer-earth.jzy88.top
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 60156344-dbc3-4614-8177-fd337539a473
-  ws-opts:
-    headers:
-      Host: wasmer-earth.jzy88.top
-    path: /60156344
-- name: "\U0001F1E6\U0001F1FA_AU_\u6FB3\u5927\u5229\u4E9A"
-  password: 3213f4a7-4817-45b8-bfff-59e5836a78bc
-  port: 55000
-  server: 103.106.231.238
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1F3\U0001F1F1_NL_\u8377\u5170"
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 443
-  server: 82.38.31.35
+  server: 3.17.162.229
   skip-cert-verify: true
   type: ss
   udp: true
+- name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_1"
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: vpn-us-003.fastervpn.world
+  skip-cert-verify: true
+  sni: vpn-us-003.fastervpn.world
+  type: hysteria2
+  udp: true
+- name: "\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD"
+  obfs: salamander
+  obfs-password: eNM/NfxTsBqQIKcN0ezARS1z0f5mIxRd9GSwhVsyJlo=
+  password: f7cb07a0-e6f9-4d22-a60e-c61854450c89
+  port: 443
+  server: ff2.yuntong.click
+  skip-cert-verify: true
+  sni: ff2.yuntong.click
+  type: hysteria2
+  udp: true
 - name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD"
   network: ws
-  port: 2053
-  server: po.fastbrokencompony.com
+  port: 443
+  server: 162.159.36.42
+  servername: bbc.zjxc.de5.net
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: e7961655-9674-4cbd-a36f-ec0d5d7d660c
-- name: "\U0001F1ED\U0001F1F0_HK_\u4E2D\u56FD\u9999\u6E2F"
-  password: af223a34-e37f-41c8-8467-26474a3ac9d8
-  port: 55000
-  server: 45.202.248.138
+  uuid: c416332e-2bde-4806-ac02-8f021c6e8f68
+  ws-opts:
+    headers:
+      Host: bbc.zjxc.de5.net
+    path: /?proxyip=proxyip.us.fxxk.dedyn.io
+- name: "\U0001F1F7\U0001F1FA_RU_\u4FC4\u7F57\u65AF"
+  password: a8a5b34d-fe46-487d-bd6a-d9f3101525fd
+  port: 51385
+  server: 46.17.40.117
   skip-cert-verify: true
-  sni: www.bing.com
+  sni: music.apple.com
   type: hysteria2
+  udp: true
+- cipher: aes-256-cfb
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_2"
+  password: amazonskr05
+  port: 443
+  server: 3.15.193.107
+  skip-cert-verify: true
+  type: ss
   udp: true
 - alterId: 2
   cipher: auto
@@ -58,39 +66,116 @@ proxies:
   type: vmess
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1ED\U0001F1F0_HK_\u4E2D\u56FD\
-    \u9999\u6E2F"
+- client-fingerprint: chrome
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1F8\U0001F1EC_SG_\u65B0\u52A0\
+    \u5761"
   network: ws
-  port: 2096
-  server: wawov6.ombre.qzz.io
-  servername: wawov6.ombre.qzz.io
+  port: 443
+  server: cf.cloudflare.182682.xyz
+  servername: vp685zjn.backend-node.danfeng3.xyz
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: c7251b62-d162-44a5-9d90-bf26a340ad40
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
   ws-opts:
     headers:
-      Host: wawov6.ombre.qzz.io
-    path: /luluchan
-- alpn:
-  - h3
-  name: "\U0001F1F8\U0001F1EC_SG_\u65B0\u52A0\u5761->\U0001F1FA\U0001F1F8_US_\u7F8E\
-    \u56FD"
-  password: Unb9YTYVSw
-  port: 11573
-  server: oracle1.chenlan.top
+      Host: vp685zjn.backend-node.danfeng3.xyz
+    path: /danfeng-2j7q21-obe7zv-3gz2-982it7pj
+- name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1EB\U0001F1EE_FI_\u82AC\u5170"
+  password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
+  port: 8449
+  server: 45.196.182.129
   skip-cert-verify: true
-  sni: oracle1.chenlan.top
+  sni: "https://t.me/WangCai2\U0001F1E8\U0001F1F3"
   type: hysteria2
   udp: true
-- cipher: aes-256-cfb
-  name: "\U0001F1EB\U0001F1F7_FR_\u6CD5\u56FD"
-  password: amazonskr05
+- name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1EB\U0001F1EE_FI_\u82AC\u5170\
+    _1"
+  password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
+  port: 8449
+  server: 45.196.182.243
+  skip-cert-verify: true
+  sni: "https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+  type: hysteria2
+  udp: true
+- name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_3"
+  password: cb887032-0447-4216-be3c-7333ecdcda9a
+  port: 52738
+  server: 172.96.141.4
+  skip-cert-verify: true
+  sni: api.push.apple.com
+  type: hysteria2
+  udp: true
+- client-fingerprint: chrome
+  name: "\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD_1"
   port: 443
-  server: 51.44.220.197
+  reality-opts:
+    public-key: TRP10HqKUXEQ3O-cfsq93DycfBmbJe9KM36yvSa8Mmw
+  server: 47.254.156.143
+  servername: api.company-target.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3e7f67de-648e-4871-b51a-a225214d41ee
+- name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_4"
+  password: 13d29042-ab82-4195-9cd4-2bafc518e201
+  port: 52625
+  server: 147.90.235.195
+  skip-cert-verify: true
+  sni: apps.apple.com
+  type: hysteria2
+  udp: true
+- name: "\U0001F1ED\U0001F1F0_HK_\u4E2D\u56FD\u9999\u6E2F->\U0001F1F8\U0001F1EC_SG_\u65B0\
+    \u52A0\u5761"
+  password: OccIqeORGQwiNkwS
+  port: 19128
+  server: jpbgp.netvigor.cc
+  skip-cert-verify: true
+  sni: yazhou10.dynu.net
+  tls: true
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1ED\U0001F1F0_HK_\u4E2D\u56FD\u9999\u6E2F->\U0001F1E9\U0001F1EA_DE_\u5FB7\
+    \u56FD"
+  network: ws
+  port: 16644
+  server: planb.mojcn.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 0db8b699-548d-4ed8-b720-6194783ecc9e
+  ws-opts:
+    headers:
+      Host: 445eb7ce2d66c34309d2e1dacbeaf3b9.mobgslb.tbcache.com
+    path: /
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1F3\U0001F1F1_NL_\u8377\u5170"
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 443
+  server: 82.38.31.35
   skip-cert-verify: true
   type: ss
+  udp: true
+- name: "\U0001F1F8\U0001F1EC_SG_\u65B0\u52A0\u5761"
+  password: 140dfd67-61be-45e8-b234-0a5529d47ebc
+  port: 55000
+  server: 104.234.233.100
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
+  udp: true
+- name: "\U0001F1ED\U0001F1F0_HK_\u4E2D\u56FD\u9999\u6E2F"
+  password: 3213f4a7-4817-45b8-bfff-59e5836a78bc
+  port: 55000
+  server: 156.226.172.6
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
   udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
@@ -106,236 +191,91 @@ proxies:
   type: vless
   udp: true
   uuid: 27f914c5-bdcc-441a-9459-368daf552606
-- alpn:
-  - h3
-  congestion-controller: bbr
-  disable-sni: false
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_1"
-  password: 383737a2-a196-44b6-a9ac-4f8cc23c9637
-  port: 11393
-  server: 107.173.7.186
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: tuic
-  udp: true
-  udp-relay-mode: native
-  uuid: 383737a2-a196-44b6-a9ac-4f8cc23c9637
-- alterId: 2
+- alterId: 0
   cipher: auto
-  name: "\U0001F1ED\U0001F1F0_HK_\u4E2D\u56FD\u9999\u6E2F->\U0001F1EB\U0001F1F7_FR_\u6CD5\
-    \u56FD"
-  port: 30835
-  server: v35.hdacd.com
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_5"
+  network: ws
+  port: 2095
+  server: 107.173.7.186
+  servername: 107.173.7.186
   skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: "\U0001F1F0\U0001F1F7_KR_\u97E9\u56FD"
-  password: d5m-5bGOsVbFgRlxsEyO3pCF
-  port: 55020
-  server: 140.245.74.46
+  uuid: 383737a2-a196-44b6-a9ac-4f8cc23c9637
+  ws-opts:
+    path: 383737a2-a196-44b6-a9ac-4f8cc23c9637-vm
+- name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_6"
+  password: 3a73ed62-94e5-4c36-856e-a87e2d2487f2
+  port: 55000
+  server: 156.229.164.1
   skip-cert-verify: true
+  sni: www.bing.com
   type: hysteria2
   udp: true
-- name: "\U0001F1EB\U0001F1F7_FR_\u6CD5\u56FD_1"
-  network: ws
-  port: 47664
-  server: 193.42.61.231
-  servername: fr.navid.my
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 332b3cc2-21dc-4ffa-9ab7-7d46a665b5fe
-  ws-opts:
-    path: /
-- name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD"
-  network: ws
-  port: 443
-  server: 8.133.176.42
-  servername: nbhhh.mrcool.kdns.fr
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 659a9075-d5ab-4fd2-bf34-b37043fae832
-  ws-opts:
-    headers:
-      Host: nbhhh.mrcool.kdns.fr
-    path: /proxyip=3cfb8e26.tp30304.ip.090227.xyz
-- cipher: aes-256-cfb
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_2"
-  password: amazonskr05
-  port: 443
-  server: 3.133.132.79
-  skip-cert-verify: true
-  type: ss
-  udp: true
-- client-fingerprint: firefox
-  encryption: mlkem768x25519plus.native.0rtt.sqSgXr7QG1hLNkFvy0Z2TNmYcvncg3s3SMOTdcqn-SI
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
-    _1"
-  network: ws
-  port: 2087
-  server: Xn--Om2b20CM8CL2dp0Cc0tqLA.logoSETi.iR
-  servername: D1.loGoSeti.iR
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 81684c3f-2b47-4ba1-a327-870b0aab8f1c
-  ws-opts:
-    headers:
-      Host: D1.loGoSeti.iR
-    path: /@vilyshco/ed=1024
-- name: "\U0001F1EB\U0001F1F7_FR_\u6CD5\u56FD_2"
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: vpn-fr-001.fastervpn.world
-  skip-cert-verify: true
-  sni: vpn-fr-001.fastervpn.world
-  type: hysteria2
-  udp: true
-- name: "\U0001F1ED\U0001F1F0_HK_\u4E2D\u56FD\u9999\u6E2F_1"
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: 202.146.222.29
+- name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1EB\U0001F1EE_FI_\u82AC\u5170\
+    _2"
+  password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
+  port: 8449
+  server: 45.196.182.179
   skip-cert-verify: true
   sni: "https://t.me/WangCai2\U0001F1E8\U0001F1F3"
   type: hysteria2
   udp: true
-- cipher: aes-256-cfb
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_3"
-  password: amazonskr05
-  port: 443
-  server: 3.17.162.229
-  skip-cert-verify: true
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_4"
-  network: ws
-  port: 443
-  server: phoenix0202.zgjok.com
-  servername: phoenix0202.zgjok.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: d9c36b55-447a-4484-882b-d799f5301681
-  ws-opts:
-    headers:
-      Host: phoenix0202.zgjok.com
-    path: /d9c36b55-447a-4484-882b-d799f5301681
-- alpn:
-  - h3
-  name: "\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD"
-  password: 612d9f38-5242-42b8-84ad-cdbf528b4cbd
-  port: 29968
-  server: jason.ilovezhenjiu.top
-  skip-cert-verify: true
-  sni: jason.ilovezhenjiu.top
-  type: hysteria2
-  udp: true
-- client-fingerprint: chrome
-  name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD\
+- name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
     _1"
   network: ws
   port: 443
-  server: 39.107.252.182
-  servername: nbhhh.mrcool.kdns.fr
+  server: 162.159.152.48
+  servername: bbc.zjxc.de5.net
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 659a9075-d5ab-4fd2-bf34-b37043fae832
+  uuid: c416332e-2bde-4806-ac02-8f021c6e8f68
   ws-opts:
     headers:
-      Host: nbhhh.mrcool.kdns.fr
-    path: "/proxyip=Telegram-WangCai2\U0001F1E8\U0001F1F3"
-- name: "\U0001F1ED\U0001F1F0_HK_\u4E2D\u56FD\u9999\u6E2F->\U0001F1FA\U0001F1F8_US_\u7F8E\
-    \u56FD_1"
-  password: BxceQaOe
-  port: 34638
-  server: 18.162.53.72
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  tls: false
-  type: trojan
-  udp: true
-- client-fingerprint: edge
-  grpc-opts:
-    grpc-service-name: gun
-  name: "\U0001F1F7\U0001F1FA_RU_\u4FC4\u7F57\u65AF->\U0001F1EA\U0001F1EA_EE_\u7231\
-    \u6C99\u5C3C\u4E9A"
-  network: grpc
+      Host: bbc.zjxc.de5.net
+    path: /?proxyip=proxyip.oracle.fxxk.dedyn.io
+- name: "\U0001F1F8\U0001F1EC_SG_\u65B0\u52A0\u5761_1"
+  network: ws
   port: 443
-  reality-opts:
-    public-key: xSBUeRP0UXGevxr3zKTskWvYG6vJSjlZYc4lYIIurmU
-    short-id: ee
-  server: 37.9.4.168
-  servername: centos.ubuntuhosting.host
+  server: earthpro.wasmer.app
+  servername: earthpro.wasmer.app
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: c918927a-a4cf-45ad-a5c8-e135129ee1d4
-- name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_5"
-  password: a8a5b34d-fe46-487d-bd6a-d9f3101525fd
-  port: 50581
-  server: 172.96.141.4
-  skip-cert-verify: true
-  sni: api.push.apple.com
-  type: hysteria2
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1F0\U0001F1F7_KR_\u97E9\u56FD_1"
-  network: ws
-  port: 443
-  server: seoul01.zgjok.com
-  servername: seoul01.zgjok.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 182f1650-ca13-480c-b0b4-1ca44ed0504e
+  uuid: 9b0b4404-f1eb-4551-9b88-e0aac7843c86
   ws-opts:
     headers:
-      Host: seoul01.zgjok.com
-    path: /henis01
-- name: "\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD_1"
-  password: SoftNetConnect
-  port: 42549
-  server: 213.108.20.209
-  skip-cert-verify: true
-  sni: www.speedtest.net
-  tls: false
-  type: trojan
-  udp: true
-- name: "\U0001F1F7\U0001F1FA_RU_\u4FC4\u7F57\u65AF"
-  password: 8ab59c8d-e4b5-4275-b916-083600addd53
-  port: 30000
-  server: ru.841130.xyz
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1ED\U0001F1F0_HK_\u4E2D\u56FD\u9999\u6E2F_2"
+      Host: earthpro.wasmer.app
+    path: /9b0b4404
+- name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
+    _2"
   network: ws
-  port: 443
-  server: n1747624274.4u9ma.icu
-  servername: n1747624274.4u9ma.icu
+  port: 2087
+  server: www.visa.com.br
+  servername: bbc.zjxc.de5.net
   skip-cert-verify: true
   tls: true
-  type: vmess
+  type: vless
   udp: true
-  uuid: d8daf507-a4ac-4eea-8399-8f0cd071eb52
+  uuid: c416332e-2bde-4806-ac02-8f021c6e8f68
   ws-opts:
     headers:
-      Host: n1747624274.4u9ma.icu
-    path: /
+      Host: bbc.zjxc.de5.net
+    path: /?proxyip=proxyip.oracle.fxxk.dedyn.io
+- alpn:
+  - h3
+  disable-sni: false
+  name: "\U0001F1EB\U0001F1F7_FR_\u6CD5\u56FD"
+  password: dongtaiwang.com
+  port: 33888
+  server: 62.210.24.143
+  skip-cert-verify: true
+  sni: bing.com
+  type: tuic
+  udp: true
+  udp-relay-mode: native
+  uuid: 9adb384a-0f16-4501-a8f3-b6b2556fce87
