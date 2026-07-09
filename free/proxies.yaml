@@ -1,14 +1,4 @@
 proxies:
-- alpn:
-  - h3
-  name: "\U0001F1ED\U0001F1F0_HK_\u4E2D\u56FD\u9999\u6E2F"
-  password: 837e9ea2-cf0b-46a1-93a8-7e25c3a4066c
-  port: 443
-  server: 31.77.144.133
-  skip-cert-verify: true
-  sni: argg9.auragg.org
-  type: hysteria2
-  udp: true
 - name: "\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD"
   obfs: salamander
   obfs-password: eNM/NfxTsBqQIKcN0ezARS1z0f5mIxRd9GSwhVsyJlo=
