@@ -1,108 +1,60 @@
 proxies:
-- name: "\U0001F1EB\U0001F1F7_FR_\u6CD5\u56FD"
-  password: XG59623478
-  port: 443
-  server: intense-basilisk.rooster465.autos
-  skip-cert-verify: true
-  sni: intense-basilisk.rooster465.autos
-  tls: false
-  type: trojan
-  udp: true
-- name: "\U0001F1EF\U0001F1F5_JP_\u65E5\u672C"
-  password: HW85960347
-  port: 443
-  server: happy-monkfish.rooster465.autos
+- name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD"
+  network: ws
+  port: 80
+  server: 199.232.86.11
   skip-cert-verify: true
   tls: false
-  type: trojan
+  type: vless
   udp: true
+  uuid: 3b940e86-7b0d-40da-acf1-12d334e41023
+  ws-opts:
+    headers:
+      Host: Fastapi.Org
+    path: /
 - cipher: aes-256-cfb
   name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD"
   password: amazonskr05
   port: 443
-  server: 3.14.255.108
+  server: 18.191.147.2
   skip-cert-verify: true
   type: ss
   udp: true
-- name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1F8\U0001F1EC_SG_\u65B0\u52A0\
-    \u5761"
-  password: ef73ca2cf3d9cd0f04c8f448da8125c6
-  port: 39001
-  server: 106.75.160.27
-  skip-cert-verify: true
-  sni: www.yrtok.com
-  tls: true
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1ED\U0001F1F0_HK_\u4E2D\u56FD\u9999\u6E2F"
-  port: 5566
-  server: 47.76.127.88
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 44712929-c2b7-4fa4-93bd-9de332a78c8c
 - client-fingerprint: chrome
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_1"
+  name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1F8\U0001F1EC_SG_\u65B0\u52A0\
+    \u5761"
   network: ws
   port: 443
-  server: 162.159.16.154
-  servername: t1s1.rittbo.kdns.fr
+  server: 120.55.183.176
+  servername: support.zoom.us.yxls.eu.cc
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
   ws-opts:
     headers:
-      Host: t1s1.rittbo.kdns.fr
-    path: /
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1ED\U0001F1F0_HK_\u4E2D\u56FD\u9999\u6E2F_1"
-  port: 80
-  server: 47.83.221.185
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 771a590c-5eac-5732-b796-17251132f8d2
+      Host: support.zoom.us.yxls.eu.cc
+    path: /sg-melbi
 - cipher: aes-256-cfb
-  name: "\U0001F1EF\U0001F1F5_JP_\u65E5\u672C_1"
+  name: "\U0001F1EB\U0001F1F7_FR_\u6CD5\u56FD"
   password: amazonskr05
   port: 443
-  server: 35.77.98.65
+  server: 13.38.46.189
   skip-cert-verify: true
   type: ss
   udp: true
-- grpc-opts:
-    grpc-service-name: grpc
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_2"
-  network: grpc
-  port: 2083
-  server: using.neobo-tooth.ru
-  servername: using.neobo-tooth.ru
+- cipher: aes-256-cfb
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_1"
+  password: amazonskr05
+  port: 443
+  server: 3.16.130.237
   skip-cert-verify: true
-  tls: true
-  type: vless
+  type: ss
   udp: true
-  uuid: 0c6b632a-cd96-4b74-9b51-151e3b5697db
-- alpn:
-  - h3
-  auth_str: dongtaiwang.com
-  down: '1000'
-  name: "\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD"
-  port: 54177
-  server: 5.83.129.90
-  skip-cert-verify: true
-  sni: apple.com
-  type: hysteria
-  udp: true
-  up: '500'
 - client-fingerprint: chrome
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD"
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
+    _1"
   network: ws
   port: 443
   server: 172.64.147.236
@@ -116,51 +68,27 @@ proxies:
     headers:
       Host: octopusss5.info
     path: /udfyfws
-- name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_3"
-  network: ws
-  port: 443
-  server: 162.159.36.53
-  servername: bbc.zjxc.de5.net
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: c416332e-2bde-4806-ac02-8f021c6e8f68
-  ws-opts:
-    headers:
-      Host: bbc.zjxc.de5.net
-    path: /?proxyip=proxyip.oracle.fxxk.dedyn.io
 - alterId: 2
   cipher: auto
-  name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1EB\U0001F1F7_FR_\u6CD5\u56FD"
-  port: 30835
-  server: v35.hdacd.com
+  name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD"
+  port: 30845
+  server: v45.hdacd.com
   skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1EB\U0001F1F7_FR_\u6CD5\u56FD_1"
-  port: 50000
-  server: d1.trapxan.ir
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 294517f3-11cf-4add-8c82-e7d498e4139e
 - cipher: aes-256-cfb
-  name: "\U0001F1EB\U0001F1F7_FR_\u6CD5\u56FD_2"
+  name: "\U0001F1EB\U0001F1F7_FR_\u6CD5\u56FD_1"
   password: amazonskr05
   port: 443
-  server: 15.237.218.22
+  server: 15.188.74.101
   skip-cert-verify: true
   type: ss
   udp: true
 - alterId: 0
   cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_4"
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_2"
   port: 443
   server: guanwang.awsno.com
   servername: gw.alicdn.com
@@ -169,58 +97,101 @@ proxies:
   type: vmess
   udp: true
   uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-- cipher: aes-256-cfb
-  name: "\U0001F1EB\U0001F1F7_FR_\u6CD5\u56FD_3"
-  password: amazonskr05
+- client-fingerprint: firefox
+  grpc-opts:
+    grpc-service-name: media.session.poll
+  name: "\U0001F1F3\U0001F1F1_NL_\u8377\u5170"
+  network: grpc
   port: 443
-  server: 35.180.199.237
+  server: argg4.auragg.org
+  servername: argg4.auragg.org
   skip-cert-verify: true
-  type: ss
+  tls: true
+  type: vless
   udp: true
+  uuid: 8bc63720-5ec8-45b5-b6a6-9a21ffb490e8
+- alpn:
+  - h3
+  auth_str: dongtaiwang.com
+  down: '1000'
+  name: "\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD"
+  port: 54177
+  server: 5.83.129.90
+  skip-cert-verify: true
+  sni: apple.com
+  type: hysteria
+  udp: true
+  up: '500'
+- name: "\U0001F1FB\U0001F1F3_VN_\u8D8A\u5357"
+  obfs: salamander
+  obfs-password: eNM/NfxTsBqQIKcN0ezARS1z0f5mIxRd9GSwhVsyJlo=
+  password: f7cb07a0-e6f9-4d22-a60e-c61854450c89
+  port: 443
+  server: vn2.yuntong.click
+  skip-cert-verify: true
+  sni: vn2.yuntong.click
+  type: hysteria2
+  udp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: "\U0001F1F5\U0001F1F1_PL_\u6CE2\u5170"
+  port: 443
+  reality-opts:
+    public-key: nfkwd9xJCoNuWrvvieBB9VfpcDldsARAdFPL0dF5A1Q
+    short-id: 305570274c0c72cc
+  server: 82.40.62.17
+  servername: pl.hagrid-connected.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7499f0a0-3670-4cf6-a31c-ad4cd943cf18
+- alterId: 2
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD_1"
+  port: 30833
+  server: v33.hdacd.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1ED\U0001F1F0_HK_\u4E2D\u56FD\u9999\u6E2F"
+  port: 5566
+  server: 47.76.127.88
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 44712929-c2b7-4fa4-93bd-9de332a78c8c
 - cipher: aes-256-cfb
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_5"
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_3"
   password: amazonskr05
   port: 443
   server: 18.191.132.3
   skip-cert-verify: true
   type: ss
   udp: true
-- client-fingerprint: chrome
-  name: "\U0001F1F3\U0001F1F1_NL_\u8377\u5170"
-  port: 2026
-  reality-opts:
-    public-key: 484wYbkS2hs2WSdXmk2-bOeKZkdBbzdD7uZ1WmRIEj8
-    short-id: ca930e5d4a603c6a
-  server: nl1.appcodes.ir
-  servername: yahoo.com
+- name: "\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD_1"
+  obfs: salamander
+  obfs-password: eNM/NfxTsBqQIKcN0ezARS1z0f5mIxRd9GSwhVsyJlo=
+  password: f7cb07a0-e6f9-4d22-a60e-c61854450c89
+  port: 443
+  server: ff2.yuntong.click
+  skip-cert-verify: true
+  sni: ff2.yuntong.click
+  type: hysteria2
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1ED\U0001F1F0_HK_\u4E2D\u56FD\u9999\u6E2F_1"
+  network: ws
+  port: 443
+  server: n1747624260.4u9ma.icu
   skip-cert-verify: true
   tls: true
-  type: vless
-  udp: true
-  uuid: f8cae104-2eaa-4b16-b258-65be28281b70
-- cipher: aes-256-cfb
-  name: "\U0001F1EB\U0001F1F7_FR_\u6CD5\u56FD_4"
-  password: amazonskr05
-  port: 443
-  server: 35.180.210.199
-  skip-cert-verify: true
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: "\U0001F1EF\U0001F1F5_JP_\u65E5\u672C_2"
-  password: amazonskr05
-  port: 443
-  server: 13.192.184.199
-  skip-cert-verify: true
-  type: ss
-  udp: true
-- alterId: 2
-  cipher: auto
-  name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD"
-  port: 30808
-  server: v8.hdacd.com
-  skip-cert-verify: true
-  tls: false
   type: vmess
   udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  uuid: eee8cb72-7eab-4034-a308-ed06cb07e003
