@@ -1,69 +1,4 @@
 proxies:
-- name: "\U0001F1F0\U0001F1F7_KR_\u97E9\u56FD"
-  password: H7mP2xY9kJ4nQ9wR5tF6vB3z
-  port: 443
-  server: vpn-kr-002.fastervpn.world
-  skip-cert-verify: true
-  sni: vpn-kr-002.fastervpn.world
-  type: hysteria2
-  udp: true
-- client-fingerprint: random
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD"
-  network: ws
-  port: 443
-  server: 162.159.0.3
-  servername: soucuovls.pages.dev
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: dd321f25-8f90-4e7c-a1fa-01883a8988a7
-  ws-opts:
-    headers:
-      Host: soucuovls.pages.dev
-    path: pyip=proxyip.cmliussss.net
-- name: "\U0001F1F8\U0001F1EC_SG_\u65B0\u52A0\u5761"
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: 54.255.102.19
-  skip-cert-verify: true
-  sni: "https://t.me/WangCai2\U0001F1E8\U0001F1F3"
-  type: hysteria2
-  udp: true
-- name: "\U0001F1EB\U0001F1F7_FR_\u6CD5\u56FD"
-  port: 22223
-  server: 51.44.137.10
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
-- flow: xtls-rprx-vision
-  name: "\U0001F1EF\U0001F1F5_JP_\u65E5\u672C"
-  port: 443
-  server: s10000.gogocs.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5d02517f-63d5-3e9f-b467-1bcf4d4e25d3
-- name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD"
-  password: 1df3ece1218bedba28c6c6ac726a07bb
-  port: 39001
-  server: 114.80.8.128
-  skip-cert-verify: true
-  sni: www.yrtok.com
-  tls: true
-  type: trojan
-  udp: true
-- name: "\U0001F1EB\U0001F1F7_FR_\u6CD5\u56FD->\U0001F1EB\U0001F1EE_FI_\u82AC\u5170"
-  port: 2090
-  server: fn.fifapes.monster
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: eab915bc-d2df-73d1-47d0-6eb240497055
 - alterId: 0
   cipher: auto
   name: "\U0001F1ED\U0001F1F0_HK_\u4E2D\u56FD\u9999\u6E2F\u7279\u522B\u884C\u653F\u533A"
@@ -74,76 +9,91 @@ proxies:
   type: vmess
   udp: true
   uuid: 771a590c-5eac-5732-b796-17251132f8d2
-- name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E6\U0001F1FA_AU_\u6FB3\u5927\
-    \u5229\u4E9A"
-  obfs: salamander
-  obfs-password: YzgyOTkwNDk4ZTU2NTdiNA==
-  password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
-  port: 10000
-  server: usa-lv.9966690.xyz
-  skip-cert-verify: true
-  sni: iosapps.itunes.apple.com
-  type: hysteria2
-  udp: true
 - cipher: aes-256-cfb
-  name: "\U0001F1EF\U0001F1F5_JP_\u65E5\u672C_1"
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD"
   password: amazonskr05
   port: 443
-  server: 18.183.180.62
+  server: 3.145.57.90
   skip-cert-verify: true
   type: ss
   udp: true
-- cipher: aes-256-cfb
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_1"
-  password: amazonskr05
+- name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD"
+  password: 1df3ece1218bedba28c6c6ac726a07bb
+  port: 39001
+  server: 114.80.8.128
+  skip-cert-verify: true
+  sni: www.yrtok.com
+  tls: true
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD"
+  network: ws
   port: 443
-  server: 3.135.183.203
+  server: 172.64.147.236
+  servername: octopusss5.info
   skip-cert-verify: true
-  type: ss
-  udp: true
-- name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_2"
-  obfs: salamander
-  obfs-password: 7e3ea7dfee4694e5e0e73383
-  password: 038663b35fe801158d3eca2dae5a6fb1
-  port: 443
-  server: 69.63.220.227
-  skip-cert-verify: true
-  sni: 69.63.220.227
-  type: hysteria2
-  udp: true
-- name: "\U0001F1E8\U0001F1E6_CA_\u52A0\u62FF\u5927"
-  obfs: salamander
-  obfs-password: YzgyOTkwNDk4ZTU2NTdiNA==
-  password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
-  port: 30000
-  server: ca-us-pdkod9z3.9966690.xyz
-  skip-cert-verify: true
-  sni: iosapps.itunes.apple.com
-  type: hysteria2
-  udp: true
-- name: "\U0001F1ED\U0001F1F0_HK_\u4E2D\u56FD\u9999\u6E2F->\U0001F1FA\U0001F1F8_US_\u7F8E\
-    \u56FD"
-  port: 45647
-  server: 182.16.61.2
-  skip-cert-verify: true
-  tls: false
+  tls: true
   type: vless
   udp: true
-  uuid: caec0d8d-ab2f-4247-b97d-7fb1a34ab195
+  uuid: c35050ce-01ab-45a9-91b8-54cec637d0a8
+  ws-opts:
+    headers:
+      Host: octopusss5.info
+    path: /udfyfws
+- name: "\U0001F1FB\U0001F1F3_VN_\u8D8A\u5357"
+  obfs: salamander
+  obfs-password: eNM/NfxTsBqQIKcN0ezARS1z0f5mIxRd9GSwhVsyJlo=
+  password: f7cb07a0-e6f9-4d22-a60e-c61854450c89
+  port: 443
+  server: vn2.yuntong.click
+  skip-cert-verify: true
+  sni: vn2.yuntong.click
+  type: hysteria2
+  udp: true
 - alterId: 0
   cipher: auto
-  name: "\U0001F1EF\U0001F1F5_JP_\u65E5\u672C_2"
+  name: "\U0001F1ED\U0001F1F0_HK_\u4E2D\u56FD\u9999\u6E2F"
   network: ws
-  port: 58905
-  server: 161.33.139.138
-  servername: 161.33.139.138
+  port: 443
+  server: n1747624274.4u9ma.icu
   skip-cert-verify: true
-  tls: false
+  tls: true
   type: vmess
   udp: true
-  uuid: 1610f8dc-0661-4032-ac6a-a7250603f608
-  ws-opts:
-    path: /1610f8dc-0661-4032-ac6a-a7250603f608-vm
+  uuid: d8daf507-a4ac-4eea-8399-8f0cd071eb52
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1ED\U0001F1F0_HK_\u4E2D\u56FD\u9999\u6E2F_1"
+  network: ws
+  port: 443
+  server: n1747624260.4u9ma.icu
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: eee8cb72-7eab-4034-a308-ed06cb07e003
+- client-fingerprint: chrome
+  name: "\U0001F1EB\U0001F1EE_FI_\u82AC\u5170"
+  port: 8526
+  reality-opts:
+    public-key: -zNDEqKkScKvMWB7spEper78GE_u-nR4jDHZ3DpOoxM
+    short-id: 62ad184af31fc8cf
+  server: hokm-t1.igatel.com
+  servername: www.yahoo.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: a49adb79-ed7b-449a-8bba-3842dc495e74
+- name: "\U0001F1ED\U0001F1F0_HK_\u4E2D\u56FD\u9999\u6E2F_2"
+  password: e3d48fa4-42b7-40a7-827c-5b6496a043d1
+  port: 55000
+  server: 156.226.172.6
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
+  udp: true
 - client-fingerprint: chrome
   name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1F8\U0001F1EC_SG_\u65B0\u52A0\
     \u5761"
@@ -160,26 +110,21 @@ proxies:
     headers:
       Host: support.zoom.us.yxls.eu.cc
     path: /sg-melbi
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1EE\U0001F1F7_IR_\u4F0A\u6717->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD"
-  password: KpikV0WcN54ul7ytP0QOGW7njSS9xqqy/Ji85PM4KQQ=
-  port: 2053
-  server: 2.144.23.23
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_1"
+  port: 443
+  server: guanwang.awsno.com
+  servername: gw.alicdn.com
   skip-cert-verify: true
-  type: ss
+  tls: true
+  type: vmess
   udp: true
-- name: "\U0001F1ED\U0001F1F0_HK_\u4E2D\u56FD\u9999\u6E2F"
-  password: 7c7ff1be-a6e9-4a6f-853c-052ed3f3f21b
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+- name: "\U0001F1EC\U0001F1E7_GB_\u82F1\u56FD"
+  password: 88f839f2-c3c0-487d-aac3-f8c089d2369d
   port: 55000
-  server: 45.202.248.138
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
-  udp: true
-- name: "\U0001F1ED\U0001F1F0_HK_\u4E2D\u56FD\u9999\u6E2F_1"
-  password: e3d48fa4-42b7-40a7-827c-5b6496a043d1
-  port: 55000
-  server: 156.226.172.6
+  server: 45.154.205.25
   skip-cert-verify: true
   sni: www.bing.com
   type: hysteria2
@@ -194,3 +139,56 @@ proxies:
   sni: ff2.yuntong.click
   type: hysteria2
   udp: true
+- name: "\U0001F1EF\U0001F1F5_JP_\u65E5\u672C"
+  password: xtoRpl9CCisiSwbIawiZ
+  port: 443
+  server: haigc.shop
+  skip-cert-verify: true
+  sni: haigc.shop
+  type: hysteria2
+  udp: true
+- name: "\U0001F1F7\U0001F1FA_RU_\u4FC4\u7F57\u65AF->\U0001F1EB\U0001F1EE_FI_\u82AC\
+    \u5170"
+  password: c0aa0cee-e855-4bcc-9afc-46241cb17990
+  port: 443
+  server: fast88.screw.page
+  skip-cert-verify: true
+  sni: fast88.screw.page
+  type: hysteria2
+  udp: true
+- name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_2"
+  obfs: salamander
+  obfs-password: 7e3ea7dfee4694e5e0e73383
+  password: 038663b35fe801158d3eca2dae5a6fb1
+  port: 443
+  server: 69.63.220.227
+  skip-cert-verify: true
+  sni: 69.63.220.227
+  type: hysteria2
+  udp: true
+- name: "\U0001F1F8\U0001F1EC_SG_\u65B0\u52A0\u5761"
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: 54.255.102.19
+  skip-cert-verify: true
+  sni: "https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+  type: hysteria2
+  udp: true
+- cipher: aes-256-cfb
+  name: "\U0001F1EF\U0001F1F5_JP_\u65E5\u672C_1"
+  password: amazonskr05
+  port: 443
+  server: 52.195.12.64
+  skip-cert-verify: true
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1ED\U0001F1F0_HK_\u4E2D\u56FD\u9999\u6E2F_3"
+  port: 5566
+  server: 47.76.127.88
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 44712929-c2b7-4fa4-93bd-9de332a78c8c
