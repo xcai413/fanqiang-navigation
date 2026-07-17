@@ -1,30 +1,14 @@
 proxies:
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: "\U0001F1EA\U0001F1EA_EE_\u7231\u6C99\u5C3C\u4E9A"
-  port: 443
-  reality-opts:
-    public-key: 10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc
-    short-id: 43dcff53849b81e6
-  server: 185.93.33.7
-  servername: auto.quattro-tech.ru
+- alterId: 2
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD"
+  port: 30829
+  server: v29.hdacd.com
   skip-cert-verify: true
-  tls: true
-  type: vless
+  tls: false
+  type: vmess
   udp: true
-  uuid: ecad47b0-249e-0014-adff-e3c8f02b1897
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD"
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: "(Telegram\U0001F1E8\U0001F1F3 @VPNine1)6db9d46:44797"
-    mode: tls
-  port: 2377
-  server: 88.210.36.109
-  skip-cert-verify: true
-  type: ss
-  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 2
   cipher: auto
   name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1EB\U0001F1F7_FR_\u6CD5\u56FD"
@@ -35,142 +19,6 @@ proxies:
   type: vmess
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: "\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD"
-  port: 443
-  reality-opts:
-    public-key: L7JB_3bRdr08McJ2_RNR6thyx1s65gdj6OeLdkJ463s
-    short-id: c98e3dfeb3aff317
-  server: de.themesh.site
-  servername: de.themesh.site
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 419bfbd4-3097-4cef-a6b3-aebd78506ed7
-- alterId: 2
-  cipher: auto
-  name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1EF\U0001F1F5_JP_\u65E5\u672C"
-  port: 30806
-  server: v6.hdacd.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1EB\U0001F1F7_FR_\u6CD5\u56FD"
-  network: ws
-  port: 443
-  server: 4cdn.njkrpl.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: a0449b33-d7f6-42a5-8bdc-3b5e727ec9f8
-- alterId: 2
-  cipher: auto
-  name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD"
-  port: 30804
-  server: v4.hdacd.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: "\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD_1"
-  obfs: salamander
-  obfs-password: eNM/NfxTsBqQIKcN0ezARS1z0f5mIxRd9GSwhVsyJlo=
-  password: f7cb07a0-e6f9-4d22-a60e-c61854450c89
-  port: 443
-  server: ff2.yuntong.click
-  skip-cert-verify: true
-  sni: ff2.yuntong.click
-  type: hysteria2
-  udp: true
-- name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1EB\U0001F1EE_FI_\u82AC\u5170"
-  network: ws
-  port: 443
-  server: 1.tls.fastly.veraspeed.ir
-  servername: ssl.fastly.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 891710f4-45f3-41b1-99a6-6f1510f83c10
-  ws-opts:
-    headers:
-      Host: pan21.global.ssl.fastly.net
-    path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?ed
-- alpn:
-  - h3
-  auth_str: dongtaiwang.com
-  down: '1000'
-  name: "\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD_2"
-  port: 20088
-  server: 5.83.129.153
-  skip-cert-verify: true
-  sni: apple.com
-  type: hysteria
-  udp: true
-  up: '500'
-- name: "\U0001F1EE\U0001F1F7_IR_\u4F0A\u6717->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD"
-  network: ws
-  port: 443
-  server: dash1.dequa.ir
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26c5d167-03ae-42f9-81a2-b9d57b3409a7
-- client-fingerprint: chrome
-  http-opts:
-    headers:
-      Host:
-      - www.oracle.com
-    path:
-    - /
-  name: "\U0001F1ED\U0001F1F0_HK_\u4E2D\u56FD\u9999\u6E2F"
-  network: http
-  port: 443
-  reality-opts:
-    public-key: KKmG_d_8K3TSEGpfxV7fVmSMSossfkTDRHVbXcPvRy4
-    short-id: 31fb576726
-  server: hk.259470.xyz
-  servername: www.oracle.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 25624c2d-e501-48cc-92d4-132f7f083983
-- alterId: 2
-  cipher: auto
-  name: "\U0001F1ED\U0001F1F0_HK_\u4E2D\u56FD\u9999\u6E2F_1"
-  port: 30807
-  server: v10.zgtfqs.click
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- client-fingerprint: chrome
-  name: "\U0001F1F8\U0001F1E8_SC_\u585E\u820C\u5C14->\U0001F1E9\U0001F1EA_DE_\u5FB7\
-    \u56FD"
-  network: ws
-  port: 2087
-  server: push.sukario.ir
-  servername: k3.erooo12345.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 03707fb7-0990-440f-88f6-b0e0f7242a38
-  ws-opts:
-    headers:
-      Host: k3.erooo12345.xyz
-    path: /
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: "\U0001F1F7\U0001F1FA_RU_\u4FC4\u7F57\u65AF"
@@ -187,39 +35,62 @@ proxies:
   uuid: c61ec320-29f1-4e00-9272-8b676e6957b4
 - alterId: 0
   cipher: auto
-  name: "\U0001F1ED\U0001F1F0_HK_\u4E2D\u56FD\u9999\u6E2F_2"
-  network: ws
-  port: 443
-  server: n1747624260.4u9ma.icu
+  name: "\U0001F1ED\U0001F1F0_HK_\u4E2D\u56FD\u9999\u6E2F"
+  port: 5566
+  server: 47.76.127.88
   skip-cert-verify: true
-  tls: true
+  tls: false
   type: vmess
   udp: true
-  uuid: eee8cb72-7eab-4034-a308-ed06cb07e003
-- alpn:
-  - h3
-  auth_str: dongtaiwang.com
-  down: '55'
-  name: "\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD_3"
-  port: 54177
-  server: 5.83.129.90
-  skip-cert-verify: true
-  sni: bing.com
-  type: hysteria
-  udp: true
-  up: '11'
+  uuid: 44712929-c2b7-4fa4-93bd-9de332a78c8c
 - alterId: 2
   cipher: auto
-  name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD"
-  port: 30833
-  server: v33.hdacd.com
+  name: "\U0001F1ED\U0001F1F0_HK_\u4E2D\u56FD\u9999\u6E2F_1"
+  port: 30807
+  server: v10.zgtfqs.click
   skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: "\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD"
+  port: 22222
+  server: 18.194.165.203
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+- client-fingerprint: chrome
+  http-opts:
+    headers:
+      Host:
+      - www.oracle.com
+    path:
+    - /
+  name: "\U0001F1ED\U0001F1F0_HK_\u4E2D\u56FD\u9999\u6E2F_2"
+  network: http
+  port: 443
+  reality-opts:
+    public-key: KKmG_d_8K3TSEGpfxV7fVmSMSossfkTDRHVbXcPvRy4
+    short-id: 31fb576726
+  server: hk.259470.xyz
+  servername: www.oracle.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 25624c2d-e501-48cc-92d4-132f7f083983
+- name: "\U0001F1EB\U0001F1F7_FR_\u6CD5\u56FD->\U0001F1EB\U0001F1EE_FI_\u82AC\u5170"
+  port: 2090
+  server: fn.fifapes.monster
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: eab915bc-d2df-73d1-47d0-6eb240497055
 - cipher: aes-256-cfb
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_1"
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD"
   password: amazonskr05
   port: 443
   server: 18.190.176.112
@@ -228,11 +99,186 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_1"
+  network: ws
+  port: 443
+  server: 4cdn.njkrpl.com
+  servername: 4cdn.njkrpl.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: a0449b33-d7f6-42a5-8bdc-3b5e727ec9f8
+  ws-opts:
+    path: /
+- client-fingerprint: chrome
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1F3\U0001F1F1_NL_\u8377\u5170"
+  network: ws
+  port: 443
+  server: 69.46.46.42
+  servername: node-7946883854-80433a-production.up.railway.app
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: nebla
+  ws-opts:
+    headers:
+      Host: node-7946883854-80433a-production.up.railway.app
+    path: /ws/nebla
+- name: "\U0001F1EB\U0001F1F7_FR_\u6CD5\u56FD"
+  port: 22223
+  server: 13.39.152.119
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+- alterId: 0
+  cipher: auto
   name: "\U0001F1ED\U0001F1F0_HK_\u4E2D\u56FD\u9999\u6E2F_3"
-  port: 5566
-  server: 47.76.127.88
+  network: ws
+  port: 443
+  server: n1747624274.4u9ma.icu
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: d8daf507-a4ac-4eea-8399-8f0cd071eb52
+  ws-opts:
+    headers:
+      Host: n1747624274.4u9ma.icu
+    path: /
+- name: "\U0001F1EB\U0001F1F7_FR_\u6CD5\u56FD_1"
+  port: 22224
+  server: 13.39.152.119
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+- alterId: 2
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD\
+    _1"
+  port: 30808
+  server: v8.hdacd.com
   skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
-  uuid: 44712929-c2b7-4fa4-93bd-9de332a78c8c
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 2
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1EF\U0001F1F5_JP_\u65E5\u672C"
+  port: 30806
+  server: v6.hdacd.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alpn:
+  - h3
+  auth_str: dongtaiwang.com
+  down: '1000'
+  name: "\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD_1"
+  port: 20088
+  server: 5.83.129.153
+  skip-cert-verify: true
+  sni: apple.com
+  type: hysteria
+  udp: true
+  up: '500'
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_2"
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: "(Telegram\U0001F1E8\U0001F1F3 @WangCai2)f6e348d:70852"
+    mode: tls
+  port: 2377
+  server: 88.210.36.106
+  skip-cert-verify: true
+  type: ss
+  udp: true
+- alterId: 2
+  cipher: auto
+  name: "\U0001F1ED\U0001F1F0_HK_\u4E2D\u56FD\u9999\u6E2F_4"
+  port: 30807
+  server: v10.hdacd.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: "\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD_2"
+  obfs: salamander
+  obfs-password: eNM/NfxTsBqQIKcN0ezARS1z0f5mIxRd9GSwhVsyJlo=
+  password: f7cb07a0-e6f9-4d22-a60e-c61854450c89
+  port: 443
+  server: ff2.yuntong.click
+  skip-cert-verify: true
+  sni: ff2.yuntong.click
+  type: hysteria2
+  udp: true
+- name: "\U0001F1F1\U0001F1FB_LV_\u62C9\u8131\u7EF4\u4E9A->\U0001F1EB\U0001F1EE_FI_\u82AC\
+    \u5170"
+  port: 2090
+  server: 31.57.93.195
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: eab915bc-d2df-73d1-47d0-6eb240497055
+- name: "\U0001F1EE\U0001F1F7_IR_\u4F0A\u6717->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD"
+  port: 2095
+  server: 193.151.150.135
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: aff6f31d-e503-4a75-b87f-6f2e566ffb88
+- name: "\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD_3"
+  port: 22223
+  server: 18.194.165.203
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+- alterId: 0
+  cipher: auto
+  http-opts:
+    path:
+    - /
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_3"
+  network: http
+  port: 27272
+  server: 45.158.23.138
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 1c7c0c72-6bc1-4e51-ada8-0e5570bb4780
+- alterId: 2
+  cipher: none
+  name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD"
+  port: 30833
+  server: v33.hdacd.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 2
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD\
+    _2"
+  port: 30824
+  server: v24.hdacd.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
