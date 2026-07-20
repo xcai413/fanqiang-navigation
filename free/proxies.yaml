@@ -1,44 +1,14 @@
 proxies:
-- alterId: 2
-  cipher: auto
-  name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD"
-  port: 30824
-  server: v24.hdacd.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD"
+- name: "\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD"
   obfs: salamander
-  obfs-password: 7e3ea7dfee4694e5e0e73383
-  password: 038663b35fe801158d3eca2dae5a6fb1
+  obfs-password: eNM/NfxTsBqQIKcN0ezARS1z0f5mIxRd9GSwhVsyJlo=
+  password: f7cb07a0-e6f9-4d22-a60e-c61854450c89
   port: 443
-  server: 69.63.220.227
+  server: ff2.yuntong.click
   skip-cert-verify: true
-  sni: 69.63.220.227
+  sni: ff2.yuntong.click
   type: hysteria2
   udp: true
-- name: "\U0001F1EB\U0001F1F7_FR_\u6CD5\u56FD"
-  port: 50171
-  server: 104.238.191.140
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 5de7e72d-5f52-40c0-be9c-15ce3b95aeff
-- alpn:
-  - h3
-  auth_str: dongtaiwang.com
-  down: '55'
-  name: "\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD"
-  port: 54177
-  server: 5.83.129.90
-  skip-cert-verify: true
-  sni: bing.com
-  type: hysteria
-  udp: true
-  up: '11'
 - alpn:
   - h3
   auth_str: dongtaiwang.com
@@ -51,54 +21,75 @@ proxies:
   type: hysteria
   udp: true
   up: '500'
-- cipher: aes-256-cfb
-  name: "\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD_2"
-  password: amazonskr05
-  port: 443
-  server: 63.177.252.44
-  skip-cert-verify: true
-  type: ss
-  udp: true
 - alterId: 0
   cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1EB\U0001F1F7_FR_\u6CD5\u56FD"
+  name: "\U0001F1EF\U0001F1F5_JP_\u65E5\u672C->\U0001F1ED\U0001F1F0_HK_\u4E2D\u56FD\
+    \u9999\u6E2F"
   network: ws
-  port: 443
-  server: 4cdn.njkrpl.com
+  port: 12890
+  server: gtm1.ktmwan.net
   skip-cert-verify: true
-  tls: true
+  tls: false
   type: vmess
   udp: true
-  uuid: a0449b33-d7f6-42a5-8bdc-3b5e727ec9f8
-- name: "\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD_3"
-  obfs: salamander
-  obfs-password: eNM/NfxTsBqQIKcN0ezARS1z0f5mIxRd9GSwhVsyJlo=
-  password: f7cb07a0-e6f9-4d22-a60e-c61854450c89
-  port: 443
-  server: ff2.yuntong.click
-  skip-cert-verify: true
-  sni: ff2.yuntong.click
-  type: hysteria2
-  udp: true
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: nexusGrpc
-  name: "\U0001F1F3\U0001F1F1_NL_\u8377\u5170"
-  network: grpc
-  port: 443
-  reality-opts:
-    public-key: ibignrnL_bVupAb4hFM939eT22FtlzPvc1FZY_FDwnw
-    short-id: 5e3ab3ab228625
-  server: 95.85.228.34
-  servername: 1vga81kaw013f-topology-gslb-yccdn.ru
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 8f0560ec-ba22-4431-a6a7-318dc59d5233
+  uuid: 4941aa8d-07d2-408c-be2c-117debecba30
+  ws-opts:
+    headers:
+      Host: baidu.com
+    path: /
 - alterId: 0
   cipher: auto
+  name: "\U0001F1EF\U0001F1F5_JP_\u65E5\u672C->\U0001F1E6\U0001F1FA_AU_\u6FB3\u5927\
+    \u5229\u4E9A"
+  network: ws
+  port: 12889
+  server: gtm1.ktmwan.net
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 4941aa8d-07d2-408c-be2c-117debecba30
+- alterId: 2
+  cipher: auto
   name: "\U0001F1ED\U0001F1F0_HK_\u4E2D\u56FD\u9999\u6E2F"
+  port: 30807
+  server: v10.hdacd.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1EF\U0001F1F5_JP_\u65E5\u672C->\U0001F1E8\U0001F1E6_CA_\u52A0\u62FF\
+    \u5927"
+  network: ws
+  port: 12897
+  server: gtm1.ktmwan.net
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 4941aa8d-07d2-408c-be2c-117debecba30
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1EF\U0001F1F5_JP_\u65E5\u672C->\U0001F1F8\U0001F1EC_SG_\u65B0\u52A0\
+    \u5761"
+  network: ws
+  port: 12901
+  server: cs.ktmcn.net
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 4941aa8d-07d2-408c-be2c-117debecba30
+  ws-opts:
+    headers:
+      Host: baidu.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1ED\U0001F1F0_HK_\u4E2D\u56FD\u9999\u6E2F_1"
   network: ws
   port: 443
   server: n1747624260.4u9ma.icu
@@ -109,96 +100,68 @@ proxies:
   uuid: eee8cb72-7eab-4034-a308-ed06cb07e003
 - alterId: 0
   cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_1"
-  port: 443
-  server: guanwang.awsno.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-- name: "\U0001F1F5\U0001F1F1_PL_\u6CE2\u5170"
-  password: Apt1923_N9x234gn_Nal5Nx3j_s
-  port: 8443
-  server: 81.27.102.215
-  skip-cert-verify: true
-  sni: grape-power-pl.ddnsguru.com
-  type: hysteria2
-  udp: true
-- alterId: 2
-  cipher: none
-  name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD"
-  port: 30833
-  server: v33.hdacd.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1ED\U0001F1F0_HK_\u4E2D\u56FD\u9999\u6E2F_1"
-  port: 80
-  server: 47.83.221.185
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 771a590c-5eac-5732-b796-17251132f8d2
-- name: "\U0001F1F3\U0001F1F1_NL_\u8377\u5170_1"
+  name: "\U0001F1EF\U0001F1F5_JP_\u65E5\u672C"
   network: ws
-  port: 443
-  server: 193.41.68.133
+  port: 12883
+  server: cs.ktmcn.net
   skip-cert-verify: true
   tls: false
-  type: vless
+  type: vmess
   udp: true
-  uuid: 4e843ed6-09e7-4be5-bd52-a1dc46568aeb
+  uuid: 4941aa8d-07d2-408c-be2c-117debecba30
+  ws-opts:
+    headers:
+      Host: baidu.com
+    path: /
 - alterId: 0
   cipher: auto
   name: "\U0001F1ED\U0001F1F0_HK_\u4E2D\u56FD\u9999\u6E2F_2"
-  port: 5566
-  server: 47.76.127.88
+  network: ws
+  port: 36703
+  server: 47.244.120.197
   skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
-  uuid: 44712929-c2b7-4fa4-93bd-9de332a78c8c
-- name: "\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD_4"
-  port: 22223
-  server: 3.124.225.132
+  uuid: 45b83519-9c4f-4052-a11b-02e017b636d4
+  ws-opts:
+    path: /arki?ed=2048
+- name: "\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD_2"
+  network: ws
+  port: 2082
+  server: 82.115.16.211
   skip-cert-verify: true
   tls: false
   type: vless
   udp: true
-  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
-- name: "\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD_5"
-  port: 22224
-  server: 3.124.225.132
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+  uuid: 1c404fde-0aa5-482c-ab00-0b34db703ac8
 - alterId: 0
   cipher: auto
-  name: "\U0001F1ED\U0001F1F0_HK_\u4E2D\u56FD\u9999\u6E2F_3"
+  name: "\U0001F1EF\U0001F1F5_JP_\u65E5\u672C->\U0001F1EB\U0001F1F7_FR_\u6CD5\u56FD"
   network: ws
-  port: 443
-  server: n1747624274.4u9ma.icu
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: d8daf507-a4ac-4eea-8399-8f0cd071eb52
-- name: "\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD_6"
-  port: 22222
-  server: 3.124.225.132
+  port: 12899
+  server: gtm1.ktmwan.net
   skip-cert-verify: true
   tls: false
-  type: vless
+  type: vmess
   udp: true
-  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+  uuid: 4941aa8d-07d2-408c-be2c-117debecba30
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1EF\U0001F1F5_JP_\u65E5\u672C->\U0001F1F8\U0001F1EC_SG_\u65B0\u52A0\
+    \u5761_1"
+  network: ws
+  port: 12901
+  server: gtm1.ktmwan.net
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 4941aa8d-07d2-408c-be2c-117debecba30
+  ws-opts:
+    headers:
+      Host: baidu.com
+    path: /
 - alterId: 2
   cipher: auto
   name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1ED\U0001F1F0_HK_\u4E2D\u56FD\
@@ -210,14 +173,117 @@ proxies:
   type: vmess
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: "\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD_7"
-  port: 22628
-  server: 199.247.4.254
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1EF\U0001F1F5_JP_\u65E5\u672C->\U0001F1EC\U0001F1E7_GB_\u82F1\u56FD"
+  network: ws
+  port: 12886
+  server: gtm1.ktmwan.net
   skip-cert-verify: true
   tls: false
-  type: vless
+  type: vmess
   udp: true
-  uuid: 399f7f1b-0f5e-43a1-b0b5-6f255367d778
+  uuid: 4941aa8d-07d2-408c-be2c-117debecba30
+  ws-opts:
+    headers:
+      Host: baidu.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1EB\U0001F1F7_FR_\u6CD5\u56FD"
+  network: ws
+  port: 443
+  server: 4cdn.njkrpl.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: a0449b33-d7f6-42a5-8bdc-3b5e727ec9f8
+- alterId: 2
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD"
+  port: 30833
+  server: v33.hdacd.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1EF\U0001F1F5_JP_\u65E5\u672C->\U0001F1F9\U0001F1FC_TW_\u4E2D\u56FD\
+    \u53F0\u6E7E"
+  network: ws
+  port: 12888
+  server: gtm1.ktmwan.net
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 4941aa8d-07d2-408c-be2c-117debecba30
+- alterId: 2
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD"
+  port: 30808
+  server: v8.hdacd.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1ED\U0001F1F0_HK_\u4E2D\u56FD\u9999\u6E2F_3"
+  port: 5566
+  server: 47.76.127.88
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 44712929-c2b7-4fa4-93bd-9de332a78c8c
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1ED\U0001F1F0_HK_\u4E2D\u56FD\u9999\u6E2F_4"
+  network: ws
+  port: 443
+  server: n1747624274.4u9ma.icu
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: d8daf507-a4ac-4eea-8399-8f0cd071eb52
+- alterId: 2
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD\
+    _1"
+  port: 30804
+  server: v4.hdacd.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 2
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1EC\U0001F1E7_GB_\u82F1\u56FD"
+  port: 30836
+  server: v36.hdacd.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1EF\U0001F1F5_JP_\u65E5\u672C->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD"
+  network: ws
+  port: 12898
+  server: gtm1.ktmwan.net
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 4941aa8d-07d2-408c-be2c-117debecba30
 - alterId: 2
   cipher: auto
   name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1EF\U0001F1F5_JP_\u65E5\u672C"
@@ -228,17 +294,57 @@ proxies:
   type: vmess
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1EF\U0001F1F5_JP_\u65E5\u672C->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD"
+  network: ws
+  port: 12885
+  server: cs.ktmcn.net
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 4941aa8d-07d2-408c-be2c-117debecba30
+- cipher: aes-256-cfb
+  name: "\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD_3"
+  password: amazonskr05
+  port: 443
+  server: 63.177.252.44
+  skip-cert-verify: true
+  type: ss
+  udp: true
+- name: "\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD_4"
+  port: 57785
+  server: 136.244.95.190
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 399f7f1b-0f5e-43a1-b0b5-6f255367d778
 - alpn:
   - h3
-  congestion-controller: cubic
-  disable-sni: false
-  name: "\U0001F1EB\U0001F1F7_FR_\u6CD5\u56FD_1"
-  password: dongtaiwang.com
-  port: 33888
-  server: 62.210.24.143
+  auth_str: dongtaiwang.com
+  down: '55'
+  name: "\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD_5"
+  port: 54177
+  server: 5.83.129.90
   skip-cert-verify: true
   sni: bing.com
-  type: tuic
+  type: hysteria
   udp: true
-  udp-relay-mode: native
-  uuid: 9adb384a-0f16-4501-a8f3-b6b2556fce87
+  up: '11'
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1EF\U0001F1F5_JP_\u65E5\u672C_1"
+  network: ws
+  port: 12883
+  server: gtm1.ktmwan.net
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 4941aa8d-07d2-408c-be2c-117debecba30
+  ws-opts:
+    headers:
+      Host: baidu.com
+    path: /
