@@ -1,14 +1,271 @@
 proxies:
+- name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD"
+  password: dongtaiwang.com
+  port: 44356
+  server: hy2.561891.xyz
+  skip-cert-verify: true
+  sni: hy2.561891.xyz
+  type: hysteria2
+  udp: true
+- name: "\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD"
+  port: 33470
+  server: 78.159.110.126
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: be737d2a-0b7a-4a0a-a455-ad8ec833d084
+- alpn:
+  - h3
+  auth_str: dongtaiwang.com
+  down: '55'
+  name: "\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD_1"
+  port: 54177
+  server: 5.83.129.90
+  skip-cert-verify: true
+  sni: bing.com
+  type: hysteria
+  udp: true
+  up: '11'
 - alterId: 2
   cipher: auto
-  name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD"
-  port: 30829
-  server: v29.hdacd.com
+  name: "\U0001F1ED\U0001F1F0_HK_\u4E2D\u56FD\u9999\u6E2F"
+  port: 30807
+  server: v10.hdacd.com
   skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: "\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD_2"
+  obfs: salamander
+  obfs-password: eNM/NfxTsBqQIKcN0ezARS1z0f5mIxRd9GSwhVsyJlo=
+  password: f7cb07a0-e6f9-4d22-a60e-c61854450c89
+  port: 443
+  server: ff2.yuntong.click
+  skip-cert-verify: true
+  sni: ff2.yuntong.click
+  type: hysteria2
+  udp: true
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: "\U0001F1F8\U0001F1EA_SE_\u745E\u5178"
+  port: 443
+  reality-opts:
+    public-key: 0x63_7Sha2MEQnTqWxtrMsypbwAuQhR7w9OdTP7pEn0
+    short-id: 9433f344374b00cf
+  server: 176.125.241.103
+  servername: 3cx.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: c01c2da7-6977-4b53-a493-cda17fa61b4f
+- name: "\U0001F1EB\U0001F1EE_FI_\u82AC\u5170"
+  port: 8443
+  server: ru.washing.help
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: a7a42d83-b810-4393-a321-a554ec2e75c9
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1ED\U0001F1F0_HK_\u4E2D\u56FD\u9999\u6E2F_1"
+  network: ws
+  port: 443
+  server: n1747624274.4u9ma.icu
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: d8daf507-a4ac-4eea-8399-8f0cd071eb52
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1ED\U0001F1F0_HK_\u4E2D\u56FD\u9999\u6E2F_2"
+  network: ws
+  port: 44867
+  server: 47.244.120.197
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 845e6b08-2919-4290-ade0-5dc7dcea59ca
+  ws-opts:
+    path: /arki?ed=2048
+- alterId: 2
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD"
+  port: 30808
+  server: v8.hdacd.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alpn:
+  - h3
+  congestion-controller: bbr
+  disable-sni: false
+  name: "\U0001F1F3\U0001F1F1_NL_\u8377\u5170"
+  password: 3ebac90b-6977-47c0-bef5-b2e37554432c
+  port: 17306
+  server: 89.144.35.232
+  skip-cert-verify: true
+  sni: www.microsoft.com
+  type: tuic
+  udp: true
+  udp-relay-mode: native
+  uuid: 3ebac90b-6977-47c0-bef5-b2e37554432c
+- cipher: aes-256-cfb
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_1"
+  password: amazonskr05
+  port: 443
+  server: 54.167.54.100
+  skip-cert-verify: true
+  type: ss
+  udp: true
+- name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_2"
+  network: ws
+  port: 8443
+  server: ad-005.zen2bswa.info
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2e1eb27b-9b56-40e9-a2f8-b959bc71736e
+- name: "\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD_3"
+  password: 1hOIVDVBG2hdKtJwOV2aUEFTDaFArCSH9-HrcOnps8yqQZeq
+  port: 443
+  server: prodfr.h2corp.org
+  skip-cert-verify: true
+  sni: prodfr.h2corp.org
+  type: hysteria2
+  udp: true
+- name: "\U0001F1F1\U0001F1FB_LV_\u62C9\u8131\u7EF4\u4E9A->\U0001F1EB\U0001F1EE_FI_\u82AC\
+    \u5170"
+  port: 2090
+  server: 31.57.106.242
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: eab915bc-d2df-73d1-47d0-6eb240497055
+- client-fingerprint: firefox
+  name: "\U0001F1F7\U0001F1FA_RU_\u4FC4\u7F57\u65AF"
+  port: 443
+  reality-opts:
+    public-key: 6p0aVCkOgd-xaxqSMANYABL6O4Tdbftnxjiy5qcmISQ
+    short-id: 0b
+  server: 45.155.52.231
+  servername: ru2.skydrgn-online.online
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 219f9fec-8983-4f6f-af8c-31bd0c6dbf19
+- alterId: 2
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1ED\U0001F1F0_HK_\u4E2D\u56FD\
+    \u9999\u6E2F"
+  port: 30809
+  server: v9.hdacd.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: "\U0001F1F7\U0001F1FA_RU_\u4FC4\u7F57\u65AF->\U0001F1EB\U0001F1EE_FI_\u82AC\
+    \u5170"
+  port: 8443
+  reality-opts:
+    public-key: m9ykeoeWSEuie3ALG3UdpG7CZqeXKCihdEuB8Az0LUQ
+    short-id: eb589657
+  server: 92.53.74.244
+  servername: id.pervye.ru
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: a2738d8d-ed26-4b13-a4a2-b89c7238cd10
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: "\U0001F1F1\U0001F1F9_LT_\u7ACB\u9676\u5B9B"
+  port: 443
+  reality-opts:
+    public-key: igTVOq5qGZYKOLuu_RJFMyNC-vY_oi3MCSpQ6HOoYH8
+    short-id: 81711c3d1425c374
+  server: 45.81.254.101
+  servername: travel.catanduanes.ru
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: c01c2da7-6977-4b53-a493-cda17fa61b4f
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_3"
+  port: 443
+  server: guanwang.awsno.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: "\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD_4"
+  port: 443
+  reality-opts:
+    public-key: dJDkS3qV0P2GnLUkGBpmeWhu5brRDMVUeBE4ng1WcnQ
+  server: 5.83.129.253
+  servername: flash.try-me.store
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: c28ee61d-0d43-4e69-8e6a-6397ed0ffc03
+- alpn:
+  - h3
+  congestion-controller: bbr
+  disable-sni: false
+  name: "\U0001F1EB\U0001F1F7_FR_\u6CD5\u56FD"
+  password: dongtaiwang.com
+  port: 33888
+  server: 163.172.118.224
+  skip-cert-verify: true
+  sni: bing.com
+  type: tuic
+  udp: true
+  udp-relay-mode: native
+  uuid: 9adb384a-0f16-4501-a8f3-b6b2556fce87
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: "\U0001F1ED\U0001F1F0_HK_\u4E2D\u56FD\u9999\u6E2F_3"
+  port: 21001
+  reality-opts:
+    public-key: HWUNFHoOryJHQXKF-ZOm6wMYZdVJwH5aHGa5I9_HDGA
+    short-id: dfa28122
+  server: fv2026.node2.top
+  servername: itunes.apple.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 00095169-e34f-41e4-8b1a-a51f861d041b
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1ED\U0001F1F0_HK_\u4E2D\u56FD\u9999\u6E2F_4"
+  network: ws
+  port: 443
+  server: n1747624260.4u9ma.icu
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: eee8cb72-7eab-4034-a308-ed06cb07e003
 - client-fingerprint: chrome
   grpc-opts:
     grpc-service-name: grpc
@@ -22,182 +279,16 @@ proxies:
   type: vless
   udp: true
   uuid: cdd37253-5f9b-4dcb-8b01-ad60a29384b8
-- name: "\U0001F1EB\U0001F1F7_FR_\u6CD5\u56FD"
-  port: 22223
-  server: 13.37.22.60
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1ED\U0001F1F0_HK_\u4E2D\u56FD\u9999\u6E2F"
-  network: ws
-  port: 443
-  server: n1747624260.4u9ma.icu
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: eee8cb72-7eab-4034-a308-ed06cb07e003
-- name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD"
-  obfs: salamander
-  obfs-password: 7e3ea7dfee4694e5e0e73383
-  password: 038663b35fe801158d3eca2dae5a6fb1
-  port: 443
-  server: 69.63.220.227
-  skip-cert-verify: true
-  sni: 69.63.220.227
-  type: hysteria2
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_1"
-  port: 443
-  server: guanwang.awsno.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
 - alterId: 2
   cipher: auto
-  name: "\U0001F1EF\U0001F1F5_JP_\u65E5\u672C->\U0001F1F8\U0001F1EC_SG_\u65B0\u52A0\
-    \u5761"
-  port: 30845
-  server: v45.hdacd.com
+  name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1EF\U0001F1F5_JP_\u65E5\u672C"
+  port: 30806
+  server: v6.hdacd.com
   skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: "\U0001F1F9\U0001F1F7_TR_\u571F\u8033\u5176"
-  port: 443
-  reality-opts:
-    public-key: zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04
-    short-id: c6ef72e4635d15a5
-  server: 45.196.201.55
-  servername: storage.yandex.net
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f75814f6-8f81-4847-b792-168c41f2dc85
-- alpn:
-  - h3
-  auth_str: dongtaiwang.com
-  down: '1000'
-  name: "\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD"
-  port: 20088
-  server: 5.83.129.153
-  skip-cert-verify: true
-  sni: apple.com
-  type: hysteria
-  udp: true
-  up: '500'
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1ED\U0001F1F0_HK_\u4E2D\u56FD\u9999\u6E2F_1"
-  network: ws
-  port: 44867
-  server: 47.244.120.197
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 845e6b08-2919-4290-ade0-5dc7dcea59ca
-  ws-opts:
-    path: /arki?ed=2048
-- name: "\U0001F1EB\U0001F1F7_FR_\u6CD5\u56FD_1"
-  port: 22222
-  server: 13.37.22.60
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
-- name: "\U0001F1EE\U0001F1F7_IR_\u4F0A\u6717->\U0001F1EB\U0001F1F7_FR_\u6CD5\u56FD"
-  port: 33485
-  server: babi.amojimi.ir
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 33ad2587-5ae6-46b0-a04e-b05aab9f5d84
-- alterId: 2
-  cipher: auto
-  name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD\
-    _1"
-  port: 30804
-  server: v4.hdacd.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: "\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD_1"
-  port: 22223
-  server: 52.57.117.158
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
-- alterId: 2
-  cipher: auto
-  name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD\
-    _2"
-  port: 30808
-  server: v8.hdacd.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: "\U0001F1F9\U0001F1F7_TR_\u571F\u8033\u5176_1"
-  port: 443
-  reality-opts:
-    public-key: zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04
-    short-id: c6ef72e4635d15a5
-  server: 45.196.201.14
-  servername: storage.yandex.net
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f75814f6-8f81-4847-b792-168c41f2dc85
-- alterId: 2
-  cipher: auto
-  name: "\U0001F1EF\U0001F1F5_JP_\u65E5\u672C->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD"
-  port: 30824
-  server: v24.hdacd.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: "\U0001F1EB\U0001F1F7_FR_\u6CD5\u56FD_2"
-  port: 22224
-  server: 13.37.22.60
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
-- name: "\U0001F1F8\U0001F1EC_SG_\u65B0\u52A0\u5761_1"
-  password: FC60532879
-  port: 443
-  server: resolved-gelding.rooster465.autos
-  skip-cert-verify: true
-  sni: resolved-gelding.rooster465.autos
-  tls: false
-  type: trojan
-  udp: true
 - alterId: 2
   cipher: none
   name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD"
@@ -208,89 +299,12 @@ proxies:
   type: vmess
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: "\U0001F1F7\U0001F1FA_RU_\u4FC4\u7F57\u65AF"
-  port: 29311
-  server: 46.29.163.32
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: dee59997-f3f0-4dc5-bb26-ae24ae63ec5a
-- alpn:
-  - h3
-  auth_str: dongtaiwang.com
-  down: '55'
-  name: "\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD_2"
-  port: 54177
-  server: 5.83.129.90
-  skip-cert-verify: true
-  sni: bing.com
-  type: hysteria
-  udp: true
-  up: '11'
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: "\U0001F1F9\U0001F1F7_TR_\u571F\u8033\u5176_2"
-  port: 443
-  reality-opts:
-    public-key: zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04
-    short-id: c6ef72e4635d15a5
-  server: 45.196.201.105
-  servername: storage.yandex.net
+- name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1EC\U0001F1E7_GB_\u82F1\u56FD"
+  network: ws
+  port: 8443
+  server: ad-010.limaklhc6.info
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: f75814f6-8f81-4847-b792-168c41f2dc85
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: "\U0001F1F9\U0001F1F7_TR_\u571F\u8033\u5176_3"
-  port: 443
-  reality-opts:
-    public-key: zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04
-    short-id: c6ef72e4635d15a5
-  server: 45.196.201.170
-  servername: storage.yandex.net
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f75814f6-8f81-4847-b792-168c41f2dc85
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1ED\U0001F1F0_HK_\u4E2D\u56FD\u9999\u6E2F_2"
-  port: 5566
-  server: 47.76.127.88
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 44712929-c2b7-4fa4-93bd-9de332a78c8c
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: "\U0001F1F9\U0001F1F7_TR_\u571F\u8033\u5176_4"
-  port: 443
-  reality-opts:
-    public-key: zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04
-    short-id: c6ef72e4635d15a5
-  server: 45.196.201.92
-  servername: storage.yandex.net
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f75814f6-8f81-4847-b792-168c41f2dc85
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: "\U0001F1F9\U0001F1F7_TR_\u571F\u8033\u5176_5"
-  port: 443
-  reality-opts:
-    public-key: zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04
-    short-id: c6ef72e4635d15a5
-  server: 45.196.201.37
-  servername: storage.yandex.net
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f75814f6-8f81-4847-b792-168c41f2dc85
+  uuid: 9047efd2-5aa4-4c9c-a58f-a5791b06c79e
