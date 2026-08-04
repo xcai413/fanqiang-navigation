@@ -1,29 +1,173 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1ED\U0001F1F0_HK_\u4E2D\u56FD\u9999\u6E2F"
-  network: ws
+- name: "\U0001F1ED\U0001F1F0_HK_\u4E2D\u56FD\u9999\u6E2F"
+  password: ND91608427
   port: 443
-  server: ejomsxptp19apygl.v.3dns.vip
+  server: upright-hamster.rooster465.autos
   skip-cert-verify: true
+  sni: upright-hamster.rooster465.autos
   tls: true
-  type: vmess
+  type: trojan
   udp: true
-  uuid: f23bb427c1f94373876c2f43e9f790f3
-  ws-opts:
-    path: /ws-vmess
-- cipher: aes-256-gcm
-  name: "\U0001F1F7\U0001F1FA_RU_\u4FC4\u7F57\u65AF"
-  password: 895b4b796a357570
-  port: 10916
-  server: 176.32.35.51
+- alpn:
+  - h3
+  auth_str: dongtaiwang.com
+  down: '55'
+  name: "\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD"
+  port: 54177
+  server: 5.83.129.90
+  skip-cert-verify: true
+  sni: bing.com
+  type: hysteria
+  udp: true
+  up: '11'
+- cipher: aes-128-gcm
+  name: "\U0001F1ED\U0001F1F0_HK_\u4E2D\u56FD\u9999\u6E2F_1"
+  password: QHPy2u
+  plugin: obfs
+  plugin-opts:
+    host: 2fce243671.download.windowsupdate.com
+    mode: http
+  port: 9022
+  server: 260323.1.0.l3.unclemanco.com
   skip-cert-verify: true
   type: ss
+  udp: true
+- name: "\U0001F1ED\U0001F1F0_HK_\u4E2D\u56FD\u9999\u6E2F->\U0001F1E9\U0001F1EA_DE_\u5FB7\
+    \u56FD"
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20041
+  server: hkdcrtc-e.catcat321.com
+  skip-cert-verify: true
+  sni: de.catxstar.com
+  tls: true
+  type: trojan
+  udp: true
+- name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD"
+  password: ND91608427
+  port: 443
+  server: devoted-tapir.rooster465.autos
+  skip-cert-verify: true
+  sni: devoted-tapir.rooster465.autos
+  tls: true
+  type: trojan
+  udp: true
+- cipher: aes-128-gcm
+  name: "\U0001F1ED\U0001F1F0_HK_\u4E2D\u56FD\u9999\u6E2F->\U0001F1EF\U0001F1F5_JP_\u65E5\
+    \u672C"
+  password: ayucloud1
+  plugin: obfs
+  plugin-opts:
+    host: 2fce243671.download.windowsupdate.com
+    mode: http
+  port: 819
+  server: 260323.1.0.l3.unclemanco.com
+  skip-cert-verify: true
+  type: ss
+  udp: true
+- alterId: 2
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD"
+  port: 30824
+  server: v24.hdacd.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- cipher: aes-128-gcm
+  name: "\U0001F1ED\U0001F1F0_HK_\u4E2D\u56FD\u9999\u6E2F->\U0001F1EF\U0001F1F5_JP_\u65E5\
+    \u672C_1"
+  password: fjlfjafl231303831
+  plugin: obfs
+  plugin-opts:
+    host: 2fce243671.download.windowsupdate.com
+    mode: http
+  port: 1313
+  server: 260323.1.0.l3.unclemanco.com
+  skip-cert-verify: true
+  type: ss
+  udp: true
+- client-fingerprint: firefox
+  name: "\U0001F1EE\U0001F1F7_IR_\u4F0A\u6717->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD"
+  port: 443
+  server: 217.60.193.1
+  servername: ddc-akn.astralweb.tech
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5c192fd7-ef98-4112-a20c-129108fcd7e9
+- name: "\U0001F1EB\U0001F1F7_FR_\u6CD5\u56FD"
+  password: ND91608427
+  port: 443
+  server: careful-tadpole.rooster465.autos
+  skip-cert-verify: true
+  tls: false
+  type: trojan
+  udp: true
+- name: "\U0001F1EB\U0001F1F7_FR_\u6CD5\u56FD_1"
+  password: ND91608427
+  port: 443
+  server: classic-gator.rooster465.autos
+  skip-cert-verify: true
+  sni: classic-gator.rooster465.autos
+  tls: true
+  type: trojan
+  udp: true
+- alterId: 2
+  cipher: auto
+  name: "\U0001F1EF\U0001F1F5_JP_\u65E5\u672C->\U0001F1EB\U0001F1F7_FR_\u6CD5\u56FD"
+  port: 30835
+  server: v35.hdacd.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- cipher: aes-128-gcm
+  name: "\U0001F1ED\U0001F1F0_HK_\u4E2D\u56FD\u9999\u6E2F->\U0001F1FA\U0001F1F8_US_\u7F8E\
+    \u56FD"
+  password: QHPy2u
+  plugin: obfs
+  plugin-opts:
+    host: 2fce243671.download.windowsupdate.com
+    mode: http
+  port: 911
+  server: 260323.1.0.l3.unclemanco.com
+  skip-cert-verify: true
+  type: ss
+  udp: true
+- name: "\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD_1"
+  password: ND91608427
+  port: 443
+  server: next-turkey.rooster465.autos
+  skip-cert-verify: true
+  sni: next-turkey.rooster465.autos
+  tls: true
+  type: trojan
+  udp: true
+- name: "\U0001F1ED\U0001F1F0_HK_\u4E2D\u56FD\u9999\u6E2F_2"
+  password: ND91608427
+  port: 443
+  server: ace-starling.rooster465.autos
+  skip-cert-verify: true
+  sni: ace-starling.rooster465.autos
+  tls: true
+  type: trojan
+  udp: true
+- name: "\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD_2"
+  password: ND91608427
+  port: 443
+  server: gentle-raptor.rooster465.autos
+  skip-cert-verify: true
+  sni: gentle-raptor.rooster465.autos
+  tls: true
+  type: trojan
   udp: true
 - client-fingerprint: chrome
   grpc-opts:
     grpc-service-name: TunService
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD"
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_1"
   network: grpc
   port: 8443
   reality-opts:
@@ -35,37 +179,9 @@ proxies:
   type: vless
   udp: true
   uuid: 7c74b0e4-f132-5583-4692-622a7d6b71a4
-- alterId: 2
-  cipher: auto
-  name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1ED\U0001F1F0_HK_\u4E2D\u56FD\
-    \u9999\u6E2F"
-  port: 30809
-  server: v9.hdacd.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: "\U0001F1EE\U0001F1F7_IR_\u4F0A\u6717->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD"
-  port: 443
-  server: ddc-akn.astralweb.tech
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 04b9e828-43ed-4faf-8952-41069ec08355
-- name: "\U0001F1F0\U0001F1F7_KR_\u97E9\u56FD"
-  password: ND91608427
-  port: 443
-  server: uncommon-feline.rooster465.autos
-  skip-cert-verify: true
-  sni: uncommon-feline.rooster465.autos
-  tls: false
-  type: trojan
-  udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_1"
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_2"
   port: 993
   reality-opts:
     public-key: EG3y7UktGRlzSZZ2oXT_YaO2gVP4ca3Xe6AQ0u9A5DQ
@@ -76,203 +192,86 @@ proxies:
   type: vless
   udp: true
   uuid: 7c74b0e4-f132-5583-4692-622a7d6b71a4
-- name: "\U0001F1ED\U0001F1F0_HK_\u4E2D\u56FD\u9999\u6E2F->\U0001F1FA\U0001F1E6_UA_\u4E4C\
-    \u514B\u5170"
-  password: 41c406e2-12b5-41f2-a329-d0621052d675
-  port: 20066
-  server: hkdcrtc-e.catcat321.com
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_3"
+  port: 443
+  server: guanwang.awsno.com
   skip-cert-verify: true
-  sni: hk.catxstar.com
-  tls: false
-  type: trojan
+  tls: true
+  type: vmess
   udp: true
-- cipher: aes-256-gcm
-  name: "\U0001F1F7\U0001F1FA_RU_\u4FC4\u7F57\u65AF_1"
-  password: bdb313adf74c2ede
-  port: 20188
-  server: 195.133.5.207
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+- cipher: aes-128-gcm
+  name: "\U0001F1ED\U0001F1F0_HK_\u4E2D\u56FD\u9999\u6E2F_3"
+  password: ayucloud1
+  plugin: obfs
+  plugin-opts:
+    host: 2fce243671.download.windowsupdate.com
+    mode: http
+  port: 9052
+  server: 260323.1.0.l3.unclemanco.com
   skip-cert-verify: true
   type: ss
   udp: true
-- client-fingerprint: firefox
-  name: "\U0001F1F7\U0001F1FA_RU_\u4FC4\u7F57\u65AF_2"
+- name: "\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD_3"
+  password: ND91608427
   port: 443
-  reality-opts:
-    public-key: 6p0aVCkOgd-xaxqSMANYABL6O4Tdbftnxjiy5qcmISQ
-    short-id: 0b
-  server: 45.155.52.231
-  servername: ru2.skydrgn-online.online
+  server: rapid-firefly.rooster465.autos
   skip-cert-verify: true
+  sni: rapid-firefly.rooster465.autos
   tls: true
-  type: vless
+  type: trojan
   udp: true
-  uuid: 219f9fec-8983-4f6f-af8c-31bd0c6dbf19
+- name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_4"
+  password: ND91608427
+  port: 443
+  server: fleet-bonefish.rooster465.autos
+  skip-cert-verify: true
+  sni: fleet-bonefish.rooster465.autos
+  tls: true
+  type: trojan
+  udp: true
 - alterId: 2
   cipher: auto
-  name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1F8\U0001F1EC_SG_\u65B0\u52A0\
-    \u5761"
-  port: 30845
-  server: v45.hdacd.com
+  name: "\U0001F1ED\U0001F1F0_HK_\u4E2D\u56FD\u9999\u6E2F_4"
+  port: 30807
+  server: v10.hdacd.com
   skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- client-fingerprint: chrome
-  name: "\U0001F1F5\U0001F1F1_PL_\u6CE2\u5170"
-  network: ws
-  port: 443
-  server: 31.76.251.127.cdn-one.org
-  servername: 31.76.251.127.cdn-one.org
+- cipher: aes-128-gcm
+  name: "\U0001F1ED\U0001F1F0_HK_\u4E2D\u56FD\u9999\u6E2F->\U0001F1FA\U0001F1F8_US_\u7F8E\
+    \u56FD_1"
+  password: ay2loud1
+  plugin: obfs
+  plugin-opts:
+    host: 2fce243671.download.windowsupdate.com
+    mode: http
+  port: 906
+  server: 260323.1.0.l3.unclemanco.com
   skip-cert-verify: true
-  tls: true
-  type: vless
+  type: ss
   udp: true
-  uuid: 4f375fb4-3c95-425f-bc7b-8085487a6f3c
-  ws-opts:
-    headers:
-      Host: 31.76.251.127.cdn-one.org
-    path: /10336/2GCOqG7bvA
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: TunService
-  name: "\U0001F1EB\U0001F1EE_FI_\u82AC\u5170->\U0001F1F9\U0001F1F7_TR_\u571F\u8033\
-    \u5176"
-  network: grpc
-  port: 8443
-  reality-opts:
-    public-key: D2SXHZRRYM0WcFChGWd57XB-U73aIsGfMpe2-Gq5XSs
-  server: 170.168.97.3
-  servername: download.nvidia.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5e243126-4a2a-84b6-782a-73b14797fb5f
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: "\U0001F1F7\U0001F1FA_RU_\u4FC4\u7F57\u65AF->\U0001F1E9\U0001F1EA_DE_\u5FB7\
-    \u56FD"
-  port: 443
-  reality-opts:
-    public-key: bwuT_tpimT_uUeWpSn-HbRztfol4o4uCcUHcdvkeFx0
-    short-id: 27e53bbcab7593d7
-  server: 62.152.56.243
-  servername: smartcaptcha.yandexcloud.net
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 65761043-f5c1-4e7b-8c16-b72c7a3fa4b7
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1ED\U0001F1F0_HK_\u4E2D\u56FD\u9999\u6E2F_1"
-  network: ws
-  port: 443
-  server: ex1ogt73nzpqkac2.v.3dns.vip
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: f23bb427c1f94373876c2f43e9f790f3
-  ws-opts:
-    path: /ws-vmess
-- client-fingerprint: firefox
-  name: "\U0001F1EE\U0001F1F7_IR_\u4F0A\u6717->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
-    _1"
-  port: 443
-  server: 217.60.193.1
-  servername: ddc-akn.astralweb.tech
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5c192fd7-ef98-4112-a20c-129108fcd7e9
-- client-fingerprint: chrome
-  name: "\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD"
-  network: ws
-  port: 443
-  server: 31.76.11.46.cdn-one.org
-  servername: 31.76.11.46.cdn-one.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4f375fb4-3c95-425f-bc7b-8085487a6f3c
-  ws-opts:
-    headers:
-      Host: 31.76.11.46.cdn-one.org
-    path: /52872/BNzG4FvIAr
-- name: "\U0001F1F5\U0001F1F1_PL_\u6CE2\u5170_1"
-  password: ND91608427
-  port: 443
-  server: discrete-basilisk.rooster465.autos
-  skip-cert-verify: true
-  sni: discrete-basilisk.rooster465.autos
-  tls: false
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1ED\U0001F1F0_HK_\u4E2D\u56FD\u9999\u6E2F_2"
-  network: ws
-  port: 443
-  server: 93ucrn4i0pffuabk.v.3dns.vip
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: f23bb427c1f94373876c2f43e9f790f3
-  ws-opts:
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1ED\U0001F1F0_HK_\u4E2D\u56FD\u9999\u6E2F_3"
-  network: ws
-  port: 443
-  server: 7timuei1uufoixbf.v.3dns.vip
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: f23bb427c1f94373876c2f43e9f790f3
-  ws-opts:
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1ED\U0001F1F0_HK_\u4E2D\u56FD\u9999\u6E2F_4"
-  network: ws
-  port: 443
-  server: vah4urdzl3jdx5r2.v.3dns.vip
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: f23bb427c1f94373876c2f43e9f790f3
-  ws-opts:
-    path: /ws-vmess
-- alpn:
-  - h3
-  auth_str: dongtaiwang.com
-  down: '55'
-  name: "\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD_1"
-  port: 54177
-  server: 5.83.129.90
-  skip-cert-verify: true
-  sni: bing.com
-  type: hysteria
-  udp: true
-  up: '11'
-- name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1F9\U0001F1ED_TH_\u6CF0\u56FD"
-  network: ws
-  port: 80
-  server: 3.170.185.91
+- name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD"
+  port: 12528
+  server: 120.227.1.43
   skip-cert-verify: true
   tls: false
   type: vless
   udp: true
-  uuid: 89c3b66f-c849-4602-a5a8-84b6f06af478
-  ws-opts:
-    headers:
-      Host: d2pwbkmfr5lxa4.cloudfront.net
-    path: /
+  uuid: f0169b08-43fd-4dc3-8195-18f6ad2fe39d
+- cipher: aes-128-gcm
+  name: "\U0001F1ED\U0001F1F0_HK_\u4E2D\u56FD\u9999\u6E2F_5"
+  password: QHPy2u
+  plugin: obfs
+  plugin-opts:
+    host: 2fce243671.download.windowsupdate.com
+    mode: http
+  port: 20012
+  server: 260323.1.0.l3.unclemanco.com
+  skip-cert-verify: true
+  type: ss
+  udp: true
