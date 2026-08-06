@@ -1,4 +1,34 @@
 proxies:
+- name: "\U0001F1ED\U0001F1F0_HK_\u4E2D\u56FD\u9999\u6E2F->\U0001F1EF\U0001F1F5_JP_\u65E5\
+    \u672C"
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20004
+  server: oplosgru-c.catcat321.com
+  skip-cert-verify: true
+  sni: hk.catxstar.com
+  tls: false
+  type: trojan
+  udp: true
+- cipher: aes-128-gcm
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD"
+  password: xo6k84l7b00n2hJp
+  port: 57841
+  server: 23.185.200.135
+  skip-cert-verify: true
+  type: ss
+  udp: true
+- alpn:
+  - h3
+  auth_str: dongtaiwang.com
+  down: '55'
+  name: "\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD"
+  port: 54177
+  server: 5.83.129.90
+  skip-cert-verify: true
+  sni: bing.com
+  type: hysteria
+  udp: true
+  up: '11'
 - client-fingerprint: chrome
   name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1EB\U0001F1F7_FR_\u6CD5\u56FD"
   network: ws
@@ -14,185 +44,35 @@ proxies:
     headers:
       Host: ziro.skin
     path: /xxvclws
-- cipher: aes-256-gcm
-  name: "\U0001F1EE\U0001F1F9_IT_\u610F\u5927\u5229"
-  password: d1fa2f4b98a38bc8
-  port: 10901
-  server: 62.76.234.75
-  skip-cert-verify: true
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD"
-  password: xo6k84l7b00n2hJp
-  port: 57841
-  server: 23.185.200.135
-  skip-cert-verify: true
-  type: ss
-  udp: true
-- name: "\U0001F1ED\U0001F1F0_HK_\u4E2D\u56FD\u9999\u6E2F->\U0001F1F0\U0001F1F7_KR_\u97E9\
-    \u56FD"
-  password: 41c406e2-12b5-41f2-a329-d0621052d675
-  port: 20088
-  server: oplosgru-c.catcat321.com
-  skip-cert-verify: true
-  sni: hk.catxstar.com
-  tls: true
-  type: trojan
-  udp: true
-- name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD"
-  port: 12528
-  server: 120.227.1.43
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: f0169b08-43fd-4dc3-8195-18f6ad2fe39d
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_1"
-  port: 993
-  reality-opts:
-    public-key: EG3y7UktGRlzSZZ2oXT_YaO2gVP4ca3Xe6AQ0u9A5DQ
-  server: 88.218.44.4
-  servername: download.nvidia.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7c74b0e4-f132-5583-4692-622a7d6b71a4
-- client-fingerprint: firefox
-  name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1F5\U0001F1F1_PL_\u6CE2\u5170"
-  network: ws
-  port: 443
-  server: 77.105.163.46
-  servername: ov186.ochmaybrooooo.online
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 3e37ef76-835d-4ad2-a1d3-414ef90532bf
-  ws-opts:
-    headers:
-      Host: ov186.ochmaybrooooo.online
-    path: /
-- client-fingerprint: firefox
-  name: "\U0001F1EE\U0001F1F7_IR_\u4F0A\u6717->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD"
-  port: 443
-  server: 217.60.193.1
-  servername: ddc-akn.astralweb.tech
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5c192fd7-ef98-4112-a20c-129108fcd7e9
-- name: "\U0001F1ED\U0001F1F0_HK_\u4E2D\u56FD\u9999\u6E2F->\U0001F1F2\U0001F1F4_MO_\u4E2D\
-    \u56FD\u6FB3\u95E8"
-  password: 41c406e2-12b5-41f2-a329-d0621052d675
-  port: 20068
-  server: oplosgru-c.catcat321.com
-  skip-cert-verify: true
-  sni: hk.catxstar.com
-  tls: false
-  type: trojan
-  udp: true
-- name: "\U0001F1ED\U0001F1F0_HK_\u4E2D\u56FD\u9999\u6E2F->\U0001F1E9\U0001F1EA_DE_\u5FB7\
-    \u56FD"
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20041
-  server: hkdcrtc-e.catcat321.com
-  skip-cert-verify: true
-  sni: de.catxstar.com
-  tls: false
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_2"
-  port: 443
-  server: guanwang.awsno.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
+  grpc-opts:
+    grpc-service-name: TunService
   name: "\U0001F1EB\U0001F1EE_FI_\u82AC\u5170->\U0001F1F9\U0001F1F7_TR_\u571F\u8033\
     \u5176"
-  port: 993
+  network: grpc
+  port: 8443
   reality-opts:
     public-key: D2SXHZRRYM0WcFChGWd57XB-U73aIsGfMpe2-Gq5XSs
-  server: 170.168.97.3
+  server: 170.168.97.5
   servername: download.nvidia.com
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: e6d41d6f-d58a-7650-bba4-d7f0dde3ba4d
-- name: "\U0001F1ED\U0001F1F0_HK_\u4E2D\u56FD\u9999\u6E2F->\U0001F1EE\U0001F1F3_IN_\u5370\
-    \u5EA6"
-  password: 41c406e2-12b5-41f2-a329-d0621052d675
-  port: 20034
-  server: oplosgru-c.catcat321.com
-  skip-cert-verify: true
-  sni: hk.catxstar.com
-  tls: true
-  type: trojan
-  udp: true
-- alpn:
-  - h3
-  auth_str: dongtaiwang.com
-  down: '55'
-  name: "\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD"
-  port: 54177
-  server: 5.83.129.90
-  skip-cert-verify: true
-  sni: bing.com
-  type: hysteria
-  udp: true
-  up: '11'
-- alterId: 2
-  cipher: auto
-  name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1EF\U0001F1F5_JP_\u65E5\u672C"
-  port: 30806
-  server: v6.hdacd.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- encryption: mlkem768x25519plus.native.0rtt.hr_B27q0XLj8gjJlo_IFJOwOV8R8R3h6IK5EjNw7Exk
-  name: "\U0001F1EE\U0001F1F7_IR_\u4F0A\u6717->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
-    _1"
-  port: 42951
-  server: parsiran.amirrezamydamane.info
+  uuid: c6f220ed-41f2-21ba-438c-80f05ebbf92a
+- client-fingerprint: chrome
+  name: "\U0001F1F7\U0001F1FA_RU_\u4FC4\u7F57\u65AF"
+  port: 443
+  reality-opts:
+    public-key: 6p0aVCkOgd-xaxqSMANYABL6O4Tdbftnxjiy5qcmISQ
+    short-id: 0b
+  server: 45.155.52.231
+  servername: ru2.skydrgn-online.online
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 954e582b-339e-482f-91ca-62a021469766
-- alterId: 2
-  cipher: auto
-  name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1EE\U0001F1EA_IE_\u7231\u5C14\
-    \u5170"
-  port: 30804
-  server: v4.hdacd.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: "\U0001F1EB\U0001F1EE_FI_\u82AC\u5170"
-  obfs: salamander
-  obfs-password: 8zzng75tz4tf82pj
-  password: 22j0d00lev7mq0yv
-  port: 8443
-  server: musicclips.videolinks.ru
-  skip-cert-verify: true
-  sni: musicclips.videolinks.ru
-  type: hysteria2
-  udp: true
+  uuid: 219f9fec-8983-4f6f-af8c-31bd0c6dbf19
 - client-fingerprint: firefox
   grpc-opts:
     grpc-service-name: TunService
@@ -209,33 +89,158 @@ proxies:
   type: vless
   udp: true
   uuid: e6d41d6f-d58a-7650-bba4-d7f0dde3ba4d
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_1"
+  port: 443
+  server: guanwang.awsno.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+- name: "\U0001F1ED\U0001F1F0_HK_\u4E2D\u56FD\u9999\u6E2F->\U0001F1E9\U0001F1EA_DE_\u5FB7\
+    \u56FD"
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20041
+  server: hkdcrtc-e.catcat321.com
+  skip-cert-verify: true
+  sni: de.catxstar.com
+  tls: false
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_2"
+  port: 993
+  reality-opts:
+    public-key: EG3y7UktGRlzSZZ2oXT_YaO2gVP4ca3Xe6AQ0u9A5DQ
+  server: 88.218.44.4
+  servername: download.nvidia.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7c74b0e4-f132-5583-4692-622a7d6b71a4
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: '@DeltaKroneckerGithub_3909'
+  port: 443
+  reality-opts:
+    public-key: qY222OdlPFi9DvfoHZNgp0UHLubudtKLLF_KMuDy-Ho
+    short-id: 9795f83547c168d3
+  server: 89.23.103.121
+  servername: www.debian.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7596b721-f311-4194-96e6-b7b407cd6083
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: TunService
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_3"
+  network: grpc
+  port: 8443
+  reality-opts:
+    public-key: EG3y7UktGRlzSZZ2oXT_YaO2gVP4ca3Xe6AQ0u9A5DQ
+  server: 88.218.44.4
+  servername: download.nvidia.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7c74b0e4-f132-5583-4692-622a7d6b71a4
+- name: "\U0001F1ED\U0001F1F0_HK_\u4E2D\u56FD\u9999\u6E2F->\U0001F1F2\U0001F1F4_MO_\u4E2D\
+    \u56FD\u6FB3\u95E8"
+  password: 41c406e2-12b5-41f2-a329-d0621052d675
+  port: 20068
+  server: oplosgru-c.catcat321.com
+  skip-cert-verify: true
+  sni: hk.catxstar.com
+  tls: false
+  type: trojan
+  udp: true
 - name: "\U0001F1ED\U0001F1F0_HK_\u4E2D\u56FD\u9999\u6E2F->\U0001F1EF\U0001F1F5_JP_\u65E5\
-    \u672C"
+    \u672C_1"
   password: 41c406e2-12b5-41f2-a329-d0621052d675
   port: 20129
   server: hkdcrtc-e.catcat321.com
   skip-cert-verify: true
   sni: hk.catxstar.com
+  tls: false
+  type: trojan
+  udp: true
+- name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD"
+  port: 12528
+  server: 120.227.1.43
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: f0169b08-43fd-4dc3-8195-18f6ad2fe39d
+- name: "\U0001F1EB\U0001F1EE_FI_\u82AC\u5170"
+  obfs: salamander
+  obfs-password: 8zzng75tz4tf82pj
+  password: 22j0d00lev7mq0yv
+  port: 8443
+  server: musicclips.videolinks.ru
+  skip-cert-verify: true
+  sni: musicclips.videolinks.ru
+  type: hysteria2
+  udp: true
+- name: "\U0001F1F3\U0001F1F1_NL_\u8377\u5170"
+  password: gf1:gfhysteria2024
+  port: 443
+  server: 5.129.235.85
+  skip-cert-verify: true
+  sni: www.linux.com
+  type: hysteria2
+  udp: true
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: "\U0001F1EB\U0001F1EE_FI_\u82AC\u5170->\U0001F1F9\U0001F1F7_TR_\u571F\u8033\
+    \u5176_2"
+  port: 993
+  reality-opts:
+    public-key: D2SXHZRRYM0WcFChGWd57XB-U73aIsGfMpe2-Gq5XSs
+  server: 170.168.97.3
+  servername: download.nvidia.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: e6d41d6f-d58a-7650-bba4-d7f0dde3ba4d
+- name: "\U0001F1EE\U0001F1F3_IN_\u5370\u5EA6"
+  password: 18cf8030-1ceb-4b7d-8c0c-c036413c144e
+  port: 4433
+  server: ln4.xiaoliyu.cyou
+  skip-cert-verify: true
+  sni: ln4.xiaoliyu.cyou
+  type: hysteria2
+  udp: true
+- client-fingerprint: firefox
+  name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1F5\U0001F1F1_PL_\u6CE2\u5170"
+  network: ws
+  port: 443
+  server: 77.105.163.46
+  servername: ov186.ochmaybrooooo.online
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3e37ef76-835d-4ad2-a1d3-414ef90532bf
+  ws-opts:
+    headers:
+      Host: ov186.ochmaybrooooo.online
+    path: /
+- name: "\U0001F1ED\U0001F1F0_HK_\u4E2D\u56FD\u9999\u6E2F->\U0001F1F0\U0001F1F7_KR_\u97E9\
+    \u56FD"
+  password: 41c406e2-12b5-41f2-a329-d0621052d675
+  port: 20088
+  server: oplosgru-c.catcat321.com
+  skip-cert-verify: true
+  sni: hk.catxstar.com
   tls: true
   type: trojan
   udp: true
-- alterId: 2
-  cipher: auto
-  name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1EB\U0001F1F7_FR_\u6CD5\u56FD"
-  port: 30835
-  server: v35.hdacd.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 2
-  cipher: auto
-  name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD"
-  port: 30833
-  server: v33.hdacd.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
