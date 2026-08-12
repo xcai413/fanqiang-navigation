@@ -1,24 +1,6 @@
 proxies:
 - alterId: 2
   cipher: auto
-  name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD"
-  port: 30829
-  server: v29.hdacd.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD"
-  port: 12528
-  server: 120.227.1.43
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: f0169b08-43fd-4dc3-8195-18f6ad2fe39d
-- alterId: 2
-  cipher: auto
   name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1ED\U0001F1F0_HK_\u4E2D\u56FD\
     \u9999\u6E2F"
   port: 30809
@@ -28,100 +10,33 @@ proxies:
   type: vmess
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 2
-  cipher: none
-  name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD"
-  port: 30833
-  server: v33.hdacd.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 2
-  cipher: auto
-  name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1EF\U0001F1F5_JP_\u65E5\u672C"
-  port: 30806
-  server: v6.hdacd.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 2
-  cipher: auto
-  name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1EB\U0001F1F7_FR_\u6CD5\u56FD"
-  port: 30835
-  server: v35.hdacd.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- client-fingerprint: chrome
-  name: "\U0001F1F7\U0001F1FA_RU_\u4FC4\u7F57\u65AF"
+- flow: xtls-rprx-vision
+  name: "\U0001F1EB\U0001F1F7_FR_\u6CD5\u56FD"
   port: 443
-  reality-opts:
-    public-key: 6p0aVCkOgd-xaxqSMANYABL6O4Tdbftnxjiy5qcmISQ
-    short-id: 0b
-  server: 45.155.52.231
-  servername: ru2.skydrgn-online.online
+  server: fr199.mechvpn.online
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 219f9fec-8983-4f6f-af8c-31bd0c6dbf19
-- name: "\U0001F1F7\U0001F1FA_RU_\u4FC4\u7F57\u65AF->\U0001F1EB\U0001F1EE_FI_\u82AC\
-    \u5170"
-  network: ws
-  port: 2053
-  server: 159.194.226.13
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: b6c29ae7-4748-4049-b642-b695c0d2c776
-  ws-opts:
-    path: /
-- name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD"
-  port: 10000
-  server: 180.178.60.253
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 431fe973-a43a-4fac-bf83-2a772e0d0625
-- name: "\U0001F1F7\U0001F1FA_RU_\u4FC4\u7F57\u65AF_1"
-  network: ws
-  port: 4100
-  server: 104.171.137.141
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: d5d72f0a-42b0-4f43-b568-9cf7fbff073d
-  ws-opts:
-    headers:
-      Host: live.ok.ru
-    path: /v1
+  uuid: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
 - client-fingerprint: chrome
-  name: "\U0001F1EF\U0001F1F5_JP_\u65E5\u672C->\U0001F1F9\U0001F1ED_TH_\u6CF0\u56FD"
+  name: "\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD->\U0001F1E7\U0001F1F7_BR_\u5DF4\u897F"
   network: ws
   port: 443
-  server: www.true.th
-  servername: d1yxsk0zprgivr.cloudfront.net
+  server: 18.198.227.161
+  servername: titandarkness.mooo.com
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 7ce54bb3-d612-4aa7-be08-089d3c461d53
+  uuid: 4f375fb4-3c95-425f-bc7b-8085487a6f3c
   ws-opts:
     headers:
-      Host: d1yxsk0zprgivr.cloudfront.net
-    path: /
+      Host: titandarkness.mooo.com
+    path: /21381/0kO2id8FMQ
 - alterId: 0
   cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_1"
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD"
   port: 443
   server: guanwang.awsno.com
   skip-cert-verify: true
@@ -129,104 +44,48 @@ proxies:
   type: vmess
   udp: true
   uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-- alterId: 2
-  cipher: auto
-  name: "\U0001F1ED\U0001F1F0_HK_\u4E2D\u56FD\u9999\u6E2F"
-  port: 30807
-  server: v10.hdacd.com
+- name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD"
+  network: ws
+  port: 2086
+  server: 104.25.194.196
   skip-cert-verify: true
   tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alpn:
-  - h2
-  - http/1.1
-  name: "\U0001F1ED\U0001F1F0_HK_\u4E2D\u56FD\u9999\u6E2F_1"
-  password: t3re5bgbot4z4z3t
-  port: 30101
-  server: xiweini.dpdns.org
-  skip-cert-verify: true
-  sni: xiweini.dpdns.org
-  tls: true
-  type: trojan
-  udp: true
-- alterId: 2
-  cipher: auto
-  name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD\
-    _1"
-  port: 30824
-  server: v24.hdacd.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: "\U0001F1EB\U0001F1EE_FI_\u82AC\u5170"
-  network: raw
-  port: 443
-  reality-opts:
-    public-key: aB_2Tcf0A5LoiIEZHztR_l-ZOFeJKxYRH67s_OVQ9C0
-    short-id: a91045bc
-  server: 163.5.153.153
-  servername: www.samsung.com
-  skip-cert-verify: true
-  tls: true
   type: vless
   udp: true
-  uuid: 0a76a766-d141-44b8-944e-dff757d7116f
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1EF\U0001F1F5_JP_\u65E5\u672C"
-  network: http
-  port: 53268
-  server: 47.74.43.250
+  uuid: e3c7c198-2b02-42c2-b78f-22dfc078219c
+  ws-opts:
+    headers:
+      Host: uj-kn9gcgkzl0wmmy5wrkmalvhzdw62z.soltannatlos.workers.dev
+    path: /vl/3k4QnDlh2r3IPLPNFGLAeMJ5df?ed=2560
+- name: "\U0001F1ED\U0001F1F0_HK_\u4E2D\u56FD\u9999\u6E2F->\U0001F1EF\U0001F1F5_JP_\u65E5\
+    \u672C"
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20004
+  server: oplosgru-c.catcat321.com
+  skip-cert-verify: true
+  sni: hk.catxstar.com
+  tls: false
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_1"
+  network: ws
+  port: 8880
+  server: 172.67.209.127
   skip-cert-verify: true
   tls: false
-  type: vmess
+  type: vless
   udp: true
-  uuid: 16364b13-0e00-4f2e-82f0-37a721088953
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1F9\U0001F1FC_TW_\u4E2D\u56FD\u53F0\u6E7E->\U0001F1FA\U0001F1F8_US_\u7F8E\
-    \u56FD"
-  port: 51360
-  server: lt.badns.help
+  uuid: 942bdcfc-e522-44f1-b899-3bd8db7c5ae2
+  ws-opts:
+    headers:
+      Host: winter-leaf-b4da.122-6c9.workers.dev
+    path: /pyip=ProxyIP.SG.CMLiussss.net
+- name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD"
+  port: 12528
+  server: 120.227.1.43
   skip-cert-verify: true
   tls: false
-  type: vmess
+  type: vless
   udp: true
-  uuid: 85ad21e1-c2cd-3407-aa90-815f3f3ea636
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1EB\U0001F1EE_FI_\u82AC\u5170_1"
-  password: yTEXWB6XBHyv9SfQJzCSRWCnRYutFdUXg1wbcbutxPwZE6Uxcurka3GkoatgEdX483XZSHeJp3jXcTShLCRM8rPgMF3vYNfS
-  port: 42982
-  server: autodiscover.fuzzyaytor.cyou
-  skip-cert-verify: true
-  type: ss
-  udp: true
-- alpn:
-  - h3
-  auth_str: dongtaiwang.com
-  down: '1000'
-  name: "\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD"
-  port: 54177
-  server: 5.83.129.90
-  skip-cert-verify: true
-  sni: apple.com
-  type: hysteria
-  udp: true
-  up: '500'
-- alterId: 2
-  cipher: auto
-  name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1EE\U0001F1EA_IE_\u7231\u5C14\
-    \u5170"
-  port: 30804
-  server: v4.hdacd.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  uuid: f0169b08-43fd-4dc3-8195-18f6ad2fe39d
