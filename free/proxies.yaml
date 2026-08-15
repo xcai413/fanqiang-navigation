@@ -1,70 +1,136 @@
 proxies:
+- client-fingerprint: chrome
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1F9\U0001F1ED_TH_\u6CF0\u56FD"
+  network: ws
+  port: 443
+  server: 18.244.214.27
+  servername: d1yxsk0zprgivr.cloudfront.net
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7ce54bb3-d612-4aa7-be08-089d3c461d53
+  ws-opts:
+    headers:
+      Host: d1yxsk0zprgivr.cloudfront.net
+    path: /
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: "\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD"
+  port: 443
+  reality-opts:
+    public-key: IhbpvWBZmJEzDs4eI2zoFmL_a-1J_7Z7Sepyrn7-xF8
+    short-id: 6547735997055a35
+  server: 64.188.112.82
+  servername: nodefulcrum.mooo.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d4d4d103-5074-47e9-96e6-5431f4e35c57
 - alterId: 2
   cipher: auto
-  name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD"
-  port: 30829
-  server: v29.hdacd.com
+  name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1EB\U0001F1F7_FR_\u6CD5\u56FD"
+  port: 30835
+  server: v35.hdacd.com
   skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: "\U0001F1F1\U0001F1FB_LV_\u62C9\u8131\u7EF4\u4E9A"
+- name: "\U0001F1F8\U0001F1EC_SG_\u65B0\u52A0\u5761"
+  password: FH72359861
+  port: 443
+  server: master-possum.rooster465.autos
+  skip-cert-verify: true
+  sni: master-possum.rooster465.autos
+  tls: false
+  type: trojan
+  udp: true
+- client-fingerprint: edge
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD"
+  network: ws
   port: 2053
-  reality-opts:
-    public-key: cGVu5j95KoeHBkWXveyTKolORbdvZm9g1T6yyo64ZBg
-    short-id: d26f4703cdd30f4e
-  server: 89.36.161.222
-  servername: vk.ru
+  server: www.wto.org
+  servername: usa.105794.xyz
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 70e20b2e-3b1f-4c25-9a3d-9240570391bb
-- name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD"
-  port: 12528
-  server: 120.227.1.43
+  uuid: 65c56e1f-5c41-40bc-b0b5-9346772476ca
+  ws-opts:
+    headers:
+      Host: usa.105794.xyz
+    path: /download/v3/installer-x64.bin
+- name: "\U0001F1F0\U0001F1F7_KR_\u97E9\u56FD"
+  password: FH72359861
+  port: 443
+  server: massive-ocelot.rooster465.autos
+  skip-cert-verify: true
+  tls: true
+  type: trojan
+  udp: true
+- name: "\U0001F1EE\U0001F1EA_IE_\u7231\u5C14\u5170"
+  password: FH72359861
+  port: 443
+  server: darling-mongrel.rooster465.autos
+  skip-cert-verify: true
+  sni: darling-mongrel.rooster465.autos
+  tls: false
+  type: trojan
+  udp: true
+- name: "\U0001F1ED\U0001F1F0_HK_\u4E2D\u56FD\u9999\u6E2F"
+  password: 6ec301428255a78a1d826988d86cc87e
+  port: 50887
+  server: 16.162.160.61
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  tls: true
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: "\U0001F1F3\U0001F1F1_NL_\u8377\u5170"
+  port: 443
+  reality-opts:
+    public-key: 5Z6PwoPSNBLPIsX8lZtHM7-Y-psMMR1vz5Pit0EVISs
+    short-id: 82f5d3a1e9c0b661
+  server: 85.155.226.27
+  servername: getsavesafe.net
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 39c42b0a-b823-4c93-bb99-74b4183e518d
+- name: "\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD_1"
+  port: 22224
+  server: 63.180.184.26
   skip-cert-verify: true
   tls: false
   type: vless
   udp: true
-  uuid: f0169b08-43fd-4dc3-8195-18f6ad2fe39d
-- cipher: aes-256-gcm
-  name: "\U0001F1EE\U0001F1F7_IR_\u4F0A\u6717->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD"
-  password: PcOE52lyGO6MFRm6/m5hfuC3NpNockDvcnNYgq18Ni4=
-  port: 39880
-  server: 79.175.134.49
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+- name: "\U0001F1ED\U0001F1F0_HK_\u4E2D\u56FD\u9999\u6E2F_1"
+  password: FH72359861
+  port: 443
+  server: modern-bedbug.rooster465.autos
   skip-cert-verify: true
-  type: ss
-  udp: true
-- name: "\U0001F1ED\U0001F1F0_HK_\u4E2D\u56FD\u9999\u6E2F->\U0001F1EF\U0001F1F5_JP_\u65E5\
-    \u672C"
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20004
-  server: oplosgru-c.catcat321.com
-  skip-cert-verify: true
-  sni: hk.catxstar.com
-  tls: true
+  sni: modern-bedbug.rooster465.autos
+  tls: false
   type: trojan
   udp: true
-- client-fingerprint: edge
-  flow: xtls-rprx-vision
-  name: "\U0001F1F7\U0001F1FA_RU_\u4FC4\u7F57\u65AF"
+- name: "\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD_2"
+  password: FH72359861
   port: 443
-  reality-opts:
-    public-key: ckPCrgbrSdQaz1j3vP0-f0P8F4E8ZucQTeQGtxBKagU
-    short-id: 3882f019072c5dcd
-  server: vruaz.mostserv.xyz
-  servername: vruaz.mostserv.xyz
+  server: summary-lemming.rooster465.autos
   skip-cert-verify: true
-  tls: true
-  type: vless
+  sni: summary-lemming.rooster465.autos
+  tls: false
+  type: trojan
   udp: true
-  uuid: 463a26c2-eba8-0031-89c4-ee5c1373ccbe
 - client-fingerprint: chrome
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD"
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1F9\U0001F1ED_TH_\u6CF0\u56FD\
+    _1"
   network: ws
   port: 443
   server: 18.238.109.26
@@ -78,52 +144,119 @@ proxies:
     headers:
       Host: d1yxsk0zprgivr.cloudfront.net
     path: /
-- alterId: 2
-  cipher: auto
-  name: "\U0001F1ED\U0001F1F0_HK_\u4E2D\u56FD\u9999\u6E2F"
-  port: 30807
-  server: v10.hdacd.com
+- name: "\U0001F1F8\U0001F1EC_SG_\u65B0\u52A0\u5761_1"
+  password: FH72359861
+  port: 443
+  server: loved-shark.rooster465.autos
+  skip-cert-verify: true
+  sni: loved-shark.rooster465.autos
+  tls: false
+  type: trojan
+  udp: true
+- name: "\U0001F1F7\U0001F1FA_RU_\u4FC4\u7F57\u65AF"
+  network: ws
+  port: 4100
+  server: 193.188.23.170
   skip-cert-verify: true
   tls: false
+  type: vless
+  udp: true
+  uuid: 1f9ac5fe-ce9c-40ff-b52f-6f96b1285ba6
+  ws-opts:
+    headers:
+      Host: live.ok.ru
+    path: /v1
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_1"
+  port: 443
+  server: guanwang.awsno.com
+  skip-cert-verify: true
+  tls: true
   type: vmess
   udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_1"
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+- name: "\U0001F1F5\U0001F1F1_PL_\u6CE2\u5170"
   network: ws
-  port: 8880
-  server: 104.16.107.139
-  servername: tiny-lake-c7f3.16-1af.workers.dev
+  port: 443
+  server: pl4.lckdwn.ru
   skip-cert-verify: true
   tls: false
   type: vless
   udp: true
-  uuid: ff7390de-ce93-4d7d-b08b-bef8f71a85cf
-  ws-opts:
-    headers:
-      Host: tiny-lake-c7f3.16-1af.workers.dev
-    path: /pyip=ProxyIP.KR.CMLiussss.net
-- name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD"
-  network: ws
-  port: 80
-  server: 199.232.78.150
+  uuid: 5e7ecc47-e424-4653-876e-c7515a2c82b4
+- name: "\U0001F1F8\U0001F1EC_SG_\u65B0\u52A0\u5761_2"
+  password: FH72359861
+  port: 443
+  server: calm-honeybee.rooster465.autos
+  skip-cert-verify: true
+  sni: calm-honeybee.rooster465.autos
+  tls: false
+  type: trojan
+  udp: true
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: "\U0001F1EE\U0001F1F9_IT_\u610F\u5927\u5229"
+  port: 443
+  reality-opts:
+    public-key: LS-zg9fF_5TvNfMCIKngy5AMue1hF-hsk3hShsHGXT4
+    short-id: e5fa48b9363c6a88
+  server: 46.28.68.63
+  servername: www.cloudflare.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 44927d9f-1a75-4c03-ab8c-79898adaaece
+- name: "\U0001F1F5\U0001F1F1_PL_\u6CE2\u5170_1"
+  password: FH72359861
+  port: 443
+  server: magnetic-caiman.rooster465.autos
+  skip-cert-verify: true
+  sni: magnetic-caiman.rooster465.autos
+  tls: false
+  type: trojan
+  udp: true
+- name: "\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD_3"
+  port: 22223
+  server: 63.180.184.26
   skip-cert-verify: true
   tls: false
   type: vless
   udp: true
-  uuid: 16569657-116c-46ed-8920-758ab8abaac4
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+- name: "\U0001F1F8\U0001F1EC_SG_\u65B0\u52A0\u5761_3"
+  password: FH72359861
+  port: 443
+  server: fond-chipmunk.rooster465.autos
+  skip-cert-verify: true
+  tls: false
+  type: trojan
+  udp: true
+- name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD"
+  port: 12528
+  server: 120.227.1.43
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: f0169b08-43fd-4dc3-8195-18f6ad2fe39d
+- client-fingerprint: chrome
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1F9\U0001F1ED_TH_\u6CF0\u56FD\
+    _2"
+  network: ws
+  port: 443
+  server: 52.84.199.28
+  servername: d1yxsk0zprgivr.cloudfront.net
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7ce54bb3-d612-4aa7-be08-089d3c461d53
   ws-opts:
     headers:
-      Host: Vpsdelta2.com
+      Host: d1yxsk0zprgivr.cloudfront.net
     path: /
-- name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_2"
-  network: ws
-  port: 8080
-  server: 40.160.69.214
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 11af1c47-865a-47c6-92ff-118013655d78
 - alterId: 2
   cipher: auto
   name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1ED\U0001F1F0_HK_\u4E2D\u56FD\
@@ -135,168 +268,41 @@ proxies:
   type: vmess
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: "\U0001F1F5\U0001F1F1_PL_\u6CE2\u5170_2"
+  password: FH72359861
+  port: 443
+  server: primary-leech.rooster465.autos
+  skip-cert-verify: true
+  sni: primary-leech.rooster465.autos
+  tls: false
+  type: trojan
+  udp: true
 - client-fingerprint: chrome
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_3"
+  name: "\U0001F1F3\U0001F1F1_NL_\u8377\u5170->\U0001F1E6\U0001F1F9_AT_\u5965\u5730\
+    \u5229"
   network: ws
   port: 443
-  server: 18.154.132.94
-  servername: d1yxsk0zprgivr.cloudfront.net
+  server: 212.23.221.62
+  servername: vod.ensf.top
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 7ce54bb3-d612-4aa7-be08-089d3c461d53
+  uuid: e911c552-3a98-41e0-b5fb-0dd3879887b7
   ws-opts:
     headers:
-      Host: d1yxsk0zprgivr.cloudfront.net
-    path: /
-- name: "\U0001F1F3\U0001F1F1_NL_\u8377\u5170"
-  port: 8443
-  server: neth.lckdwn.ru
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 0db4a87c-c280-4a5f-ae97-903768c5ef4c
-- client-fingerprint: chrome
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_4"
-  network: ws
-  port: 443
-  server: 18.154.132.111
-  servername: d1yxsk0zprgivr.cloudfront.net
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7ce54bb3-d612-4aa7-be08-089d3c461d53
-  ws-opts:
-    headers:
-      Host: d1yxsk0zprgivr.cloudfront.net
-    path: /
+      Host: vod.ensf.top
+    path: /api/v1/irc
 - name: "\U0001F1F7\U0001F1FA_RU_\u4FC4\u7F57\u65AF_1"
   network: ws
-  port: 4100
-  server: 168.222.140.236
+  port: 2200
+  server: 87.228.122.100
   skip-cert-verify: true
   tls: false
   type: vless
   udp: true
-  uuid: 155e8dd4-a559-407a-9ea8-13a5e829f066
+  uuid: 099c6e3f-e8d3-41d4-95f2-ef2eafb51cdc
   ws-opts:
+    headers:
+      Host: rzd.ru
     path: /v1
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_5"
-  port: 47822
-  reality-opts:
-    public-key: VWhynxStqii0ll4ttnUJWG4Qy9dJFXhZu6Y8OiIO5Vk
-    short-id: c577182abe08e64c
-  server: pg-usa-bot.gigatapbot.top
-  servername: pg-bot.gigatapbot.top
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 3b9eb177-6f0c-4d49-be4a-7e5168569f45
-- name: "\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD"
-  network: ws
-  port: 443
-  server: 108.138.26.70
-  servername: d1yxsk0zprgivr.cloudfront.net
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7ce54bb3-d612-4aa7-be08-089d3c461d53
-  ws-opts:
-    headers:
-      Host: d1yxsk0zprgivr.cloudfront.net
-    path: /
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_6"
-  port: 443
-  server: guanwang.awsno.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: "\U0001F1EB\U0001F1EE_FI_\u82AC\u5170"
-  port: 443
-  reality-opts:
-    public-key: VWhynxStqii0ll4ttnUJWG4Qy9dJFXhZu6Y8OiIO5Vk
-    short-id: c577182abe08e64c
-  server: pg-sw-443-vless-tcp.gigatapbot.top
-  servername: pg-sw-443-vless-tcp.gigatapbot.top
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 3b9eb177-6f0c-4d49-be4a-7e5168569f45
-- name: "\U0001F1F5\U0001F1F1_PL_\u6CE2\u5170"
-  network: ws
-  port: 443
-  server: pl4.lckdwn.ru
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 5e7ecc47-e424-4653-876e-c7515a2c82b4
-- name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_7"
-  network: ws
-  port: 443
-  server: 172.66.44.97
-  servername: josni.hoyes.cloudns.ch
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 83afd88f-200f-4d89-bfc7-66eff160c1d8
-  ws-opts:
-    headers:
-      Host: josni.hoyes.cloudns.ch
-    path: /musiclovers85_musiclovers85?ed=512
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: "\U0001F1EA\U0001F1F8_ES_\u897F\u73ED\u7259"
-  port: 443
-  reality-opts:
-    public-key: VWhynxStqii0ll4ttnUJWG4Qy9dJFXhZu6Y8OiIO5Vk
-    short-id: c577182abe08e64c
-  server: pg-sp-443-vless-tcp.gigatapbot.top
-  servername: pg-sp-443-vless-tcp.gigatapbot.top
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 3b9eb177-6f0c-4d49-be4a-7e5168569f45
-- name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1F3\U0001F1F1_NL_\u8377\u5170"
-  network: ws
-  port: 443
-  server: 199.232.78.159
-  servername: ssl.fastly.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: be42674a-296a-43d8-bf04-b8314d65ff63
-  ws-opts:
-    headers:
-      Host: pane2.global.ssl.fastly.net
-    path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: "\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD_1"
-  port: 443
-  reality-opts:
-    public-key: O_YZOJVON0LE1U01hAtNUOVRy7z6fkBUXbMtpCGoGEg
-  server: 176.96.138.122
-  servername: kind-vortex.cdn.cachefleet.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 518a99df-54f6-4f42-819d-b60abd880edf
