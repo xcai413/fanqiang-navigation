@@ -1,127 +1,4 @@
 proxies:
-- cipher: aes-256-cfb
-  name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1EF\U0001F1F5_JP_\u65E5\u672C"
-  password: 7eadc6dbe2ae
-  port: 65443
-  server: 121.46.230.136
-  skip-cert-verify: true
-  type: ss
-  udp: true
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: "\U0001F1F3\U0001F1F4_NO_\u632A\u5A01"
-  port: 443
-  reality-opts:
-    public-key: YQTixaXzPVImuRc4TUbrFAekjIiaYV-t5S-HTKlH0AU
-    short-id: 2186a755ed67b034
-  server: 31.76.5.26
-  servername: nordic.cendora.ru
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD"
-  port: 443
-  server: guanwang.awsno.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: "\U0001F1E8\U0001F1FF_CZ_\u6377\u514B->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD"
-  network: raw
-  port: 2027
-  reality-opts:
-    public-key: ISa-DZOI4LRRb9DHMFYm5oFqBXDjYzz0hVWUfWvzLmo
-    short-id: 8d3293f0066e129a
-  server: 78.159.247.253
-  servername: storage.yandex.net
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 851ed0d8-a37b-452d-8ef2-5b6c2d28a060
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_1"
-  port: 11094
-  reality-opts:
-    public-key: 9dnXiXxP4xgvtTVRj9SBFdyO6mjGvVhWD8qVZZLCCCk
-    short-id: a356addf
-  server: 51.81.223.225
-  servername: www.yahoo.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f1fa0ad9-b122-4b7c-da82-4bea9edc48dd
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: "\U0001F1F3\U0001F1F4_NO_\u632A\u5A01_1"
-  port: 13443
-  reality-opts:
-    public-key: gc9oXe37KCCm3J1dJ03wdGsnxPBdeEkRPOvl_t-vfVM
-    short-id: a7f3c91b2e6d84c0
-  server: 31.76.5.26
-  servername: auto.cendora.ru
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
-- client-fingerprint: edge
-  flow: xtls-rprx-vision
-  name: "\U0001F1EA\U0001F1EA_EE_\u7231\u6C99\u5C3C\u4E9A"
-  port: 443
-  reality-opts:
-    public-key: t_qv0VOfWhKZJV_giGC55-ipgHYWo44Yfvik_B8T8ik
-    short-id: 4a46213c935e2ee4
-  server: 31.76.70.31
-  servername: baltic.cendora.ru
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
-- name: "\U0001F1F3\U0001F1F1_NL_\u8377\u5170"
-  port: 62145
-  server: 158.178.153.49
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
-- cipher: aes-256-cfb
-  name: "\U0001F1F9\U0001F1ED_TH_\u6CF0\u56FD"
-  password: 7eadc6dbe2ae
-  port: 65443
-  server: 103.169.67.34
-  skip-cert-verify: true
-  type: ss
-  udp: true
-- name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD"
-  port: 52683
-  server: jp.sofast.live
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 5aaa5259-f924-4682-a4a3-149d472a9dcc
-- client-fingerprint: chrome
-  name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD\
-    _1"
-  port: 58011
-  server: us22.sofast.live
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 0afc6426-606c-48e7-bd70-3c424a416842
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: "\U0001F1EB\U0001F1EE_FI_\u82AC\u5170"
@@ -137,22 +14,137 @@ proxies:
   type: vless
   udp: true
   uuid: 0a76a766-d141-44b8-944e-dff757d7116f
-- name: "\U0001F1EB\U0001F1EE_FI_\u82AC\u5170_1"
-  password: C91FbOXGY9XRymrcEebtax9R1Nj62UizoT8S6kCb7xwey8IE
-  port: 443
-  server: fast.wwwinternetvideo.click
-  skip-cert-verify: true
-  sni: fast.wwwinternetvideo.click
-  type: hysteria2
-  udp: true
-- name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_2"
-  port: 10000
-  server: 180.178.60.254
+- name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD"
+  port: 12528
+  server: 120.227.1.43
   skip-cert-verify: true
   tls: false
   type: vless
   udp: true
-  uuid: caec0d8d-ab2f-4247-b97d-7fb1a34ab195
+  uuid: f0169b08-43fd-4dc3-8195-18f6ad2fe39d
+- name: "\U0001F1F7\U0001F1FA_RU_\u4FC4\u7F57\u65AF"
+  network: ws
+  port: 2200
+  server: 5.42.106.111
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 099f0859-cb81-4a57-b6d8-2c8e18030627
+  ws-opts:
+    headers:
+      Host: rzd.ru
+    path: /v1
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1F9\U0001F1ED_TH_\u6CF0\u56FD"
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: 21123
+  server: 211.91.158.44
+  skip-cert-verify: true
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1EC\U0001F1E7_GB_\u82F1\u56FD"
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: 21117
+  server: 211.91.158.44
+  skip-cert-verify: true
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1EF\U0001F1F5_JP_\u65E5\u672C"
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: 21119
+  server: 211.91.158.44
+  skip-cert-verify: true
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1EC\U0001F1E7_GB_\u82F1\u56FD\
+    _1"
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: 21104
+  server: 211.91.158.44
+  skip-cert-verify: true
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD"
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: 21105
+  server: 211.91.158.44
+  skip-cert-verify: true
+  type: ss
+  udp: true
+- alterId: 64
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD_1"
+  port: 50002
+  server: 112.132.215.108
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: aes-256-cfb
+  name: "\U0001F1F9\U0001F1ED_TH_\u6CF0\u56FD"
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 103.169.67.34
+  skip-cert-verify: true
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1EE\U0001F1F1_IL_\u4EE5\u8272\
+    \u5217"
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: 21116
+  server: 211.91.158.44
+  skip-cert-verify: true
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1EE\U0001F1F3_IN_\u5370\u5EA6"
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: 21103
+  server: 211.91.158.26
+  skip-cert-verify: true
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1EB\U0001F1F7_FR_\u6CD5\u56FD"
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: 21122
+  server: 211.91.158.44
+  skip-cert-verify: true
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1F0\U0001F1F7_KR_\u97E9\u56FD"
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 121.46.230.138
+  skip-cert-verify: true
+  type: ss
+  udp: true
+- name: "\U0001F1F2\U0001F1FE_MY_\u9A6C\u6765\u897F\u4E9A"
+  password: 5931134d1cde66bf83a54acdfebe7ab2
+  port: 443
+  server: 47.250.84.25
+  skip-cert-verify: true
+  sni: moltbot.doctoroyy.net
+  tls: false
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1F8\U0001F1EC_SG_\u65B0\u52A0\
+    \u5761"
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: 21121
+  server: 211.91.158.26
+  skip-cert-verify: true
+  type: ss
+  udp: true
 - alterId: 2
   cipher: auto
   name: "\U0001F1ED\U0001F1F0_HK_\u4E2D\u56FD\u9999\u6E2F"
@@ -163,38 +155,11 @@ proxies:
   type: vmess
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: "\U0001F1EA\U0001F1EA_EE_\u7231\u6C99\u5C3C\u4E9A_1"
-  port: 443
-  reality-opts:
-    public-key: t_qv0VOfWhKZJV_giGC55-ipgHYWo44Yfvik_B8T8ik
-    short-id: 4a46213c935e2ee4
-  server: 31.76.70.32
-  servername: baltic.cendora.ru
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
-- client-fingerprint: chrome
-  name: "\U0001F1F3\U0001F1F1_NL_\u8377\u5170_1"
-  port: 443
-  reality-opts:
-    public-key: OZVjfQBboTDTBw0baMFqzVPsVUI4FNQmspTEb0b0zW4
-    short-id: a1b2c3d4
-  server: 2.59.183.167
-  servername: www.samsung.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 301d514e-4aa0-47b0-ba44-a0cb891cd52f
 - alterId: 2
   cipher: auto
-  name: "\U0001F1ED\U0001F1F0_HK_\u4E2D\u56FD\u9999\u6E2F_1"
-  port: 30807
-  server: v10.hdacd.com
+  name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD"
+  port: 30833
+  server: v33.hdacd.com
   skip-cert-verify: true
   tls: false
   type: vmess
@@ -202,63 +167,29 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - client-fingerprint: qq
   flow: xtls-rprx-vision
-  name: "\U0001F1F1\U0001F1FB_LV_\u62C9\u8131\u7EF4\u4E9A"
+  name: "\U0001F1F3\U0001F1F4_NO_\u632A\u5A01"
   port: 13443
   reality-opts:
     public-key: gc9oXe37KCCm3J1dJ03wdGsnxPBdeEkRPOvl_t-vfVM
     short-id: a7f3c91b2e6d84c0
-  server: 195.123.210.168
+  server: 31.76.5.26
   servername: auto.cendora.ru
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
   uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
-- cipher: aes-256-gcm
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_3"
-  password: 7w9x5m4kNWNFgKuDXFUxu68x-26wbWwg
-  port: 8388
-  server: 38.64.58.242
-  skip-cert-verify: true
-  type: ss
-  udp: true
-- name: "\U0001F1F3\U0001F1F1_NL_\u8377\u5170_2"
-  port: 62145
-  server: 158.101.208.44
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
-- alterId: 2
+- alterId: 0
   cipher: auto
-  name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1EB\U0001F1F7_FR_\u6CD5\u56FD"
-  port: 30835
-  server: v35.hdacd.com
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD"
+  port: 443
+  server: 23.95.248.105
+  servername: 23.95.248.105
   skip-cert-verify: true
-  tls: false
+  tls: true
   type: vmess
   udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 2
-  cipher: auto
-  name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1EF\U0001F1F5_JP_\u65E5\u672C\
-    _1"
-  port: 30806
-  server: v6.hdacd.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: "\U0001F1F3\U0001F1F1_NL_\u8377\u5170_3"
-  port: 62145
-  server: 92.5.227.75
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
 - encryption: mlkem768x25519plus.native.0rtt.NZBih2jIVFR24bMMX7i-Q9XE3oESSooOHSeDvnjP3fc0EaqCVMWndYUo6mUakYN2ZaYHVZofOZsanhV2ZNoFVOcvfKo7RybJVza0Y6ZT1ogxe1G72XUauZxaUwQ3m3YrapuNA8VPQ-yHZSiDnpC04QQKnAA_5sNGprfLGbM56-QRiqC9FvMpqpCZe_YOg7ZcZkatqEU-Z_a4fWs_xtOmzAUlkJPGCbye7jCeWkjF6aML4he3dGxyn6esW2QHQuoU_HJizXSvvCyOwwKq0INO-UDCoXISlGZwrqtu0Dexw-yGZJgQb5pGrPpnMYYCgcO1w9I_DPw1q4pcCFBnOwiceuy8Wuum3vViqrUBrGU0lIxH7NXPiMKM0wyXMZpjRUc
   name: ge-20b81e.atlanta-api.com
   port: 443
@@ -268,3 +199,70 @@ proxies:
   type: vless
   udp: true
   uuid: 74099b9e-52fd-4540-b642-b8d60f3b5a2a
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD\
+    _1"
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: 21118
+  server: 211.91.158.44
+  skip-cert-verify: true
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1EB\U0001F1F7_FR_\u6CD5\u56FD\
+    _1"
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: 21126
+  server: 211.91.158.44
+  skip-cert-verify: true
+  type: ss
+  udp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: "\U0001F1F8\U0001F1EC_SG_\u65B0\u52A0\u5761"
+  port: 443
+  reality-opts:
+    public-key: kxuW6rJkcKU88l_sgqezrcMFEy4yofrgouBoKufWASs
+    short-id: 2fadfe9a357ec21e
+  server: 66.42.62.84
+  servername: www.apple.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 389e0591-86d6-408f-bf24-18f611a0c94b
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1F1\U0001F1F9_LT_\u7ACB\u9676\u5B9B"
+  password: J1InuU6QRT5JOh1mQfkjU2
+  port: 16015
+  server: 144.31.243.2
+  skip-cert-verify: true
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1F0\U0001F1F7_KR_\u97E9\u56FD\
+    _1"
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: 21107
+  server: 211.91.158.44
+  skip-cert-verify: true
+  type: ss
+  udp: true
+- name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD\
+    _1"
+  port: 58011
+  server: us22.sofast.live
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0afc6426-606c-48e7-bd70-3c424a416842
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1F8\U0001F1EC_SG_\u65B0\u52A0\
+    \u5761_1"
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: 21121
+  server: 211.91.158.44
+  skip-cert-verify: true
+  type: ss
+  udp: true
