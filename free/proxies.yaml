@@ -1,108 +1,24 @@
 proxies:
-- cipher: 2022-blake3-chacha20-poly1305
-  name: "\U0001F1F8\U0001F1EC_SG_\u65B0\u52A0\u5761"
-  password: y0lUf5WDcD0z4Vm/57XU5GWoPKS+07qwaHOhXiwQekA=
-  port: 56927
-  server: 140.245.117.116
-  skip-cert-verify: true
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1ED\U0001F1F0_HK_\u4E2D\u56FD\
-    \u9999\u6E2F"
-  password: Butterfly123@qwe9527
-  port: 10001
-  server: 103.236.66.4
-  skip-cert-verify: true
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD"
-  port: 443
-  server: guanwang.awsno.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: "\U0001F1E9\U0001F1F0_DK_\u4E39\u9EA6"
-  port: 443
-  reality-opts:
-    public-key: dhLgVSqPBDrdbhyTS2j60LWZDGEZh-smkcjUNSic-WI
-    short-id: a1b2c3d4
-  server: 46.29.235.9
-  servername: telegraf.lv
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: d67af820-f54c-48ab-862c-19086357f276
-- alterId: 2
-  cipher: auto
-  name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1EF\U0001F1F5_JP_\u65E5\u672C"
-  port: 30806
-  server: v6.hdacd.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- cipher: aes-256-gcm
-  name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1F9\U0001F1FC_TW_\u4E2D\u56FD\
-    \u53F0\u6E7E"
-  password: Butterfly123@qwe9527
-  port: 30001
-  server: 36.33.35.105
-  skip-cert-verify: true
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1EF\U0001F1F5_JP_\u65E5\u672C\
-    _1"
-  password: Butterfly123@qwe9527
-  port: 40002
-  server: 103.236.66.4
-  skip-cert-verify: true
-  type: ss
-  udp: true
-- alterId: 2
-  cipher: auto
-  name: "\U0001F1ED\U0001F1F0_HK_\u4E2D\u56FD\u9999\u6E2F"
-  port: 30807
-  server: v10.hdacd.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: grpc
-  name: "\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD"
-  network: grpc
-  port: 8443
-  reality-opts:
-    public-key: dTdncizxtVTqDZDkQoYdRTkf2Mn6XuKtkzg8vZhrkzA
-    short-id: 6ba85179e30d4fc2
-  server: 89.34.90.68
-  servername: 360.yandex.ru
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: fe8e2ffb-8796-408c-af5b-0d4774215e00
-- cipher: aes-256-cfb
-  name: "\U0001F1EC\U0001F1E7_GB_\u82F1\u56FD"
-  password: amazonskr05
-  port: 443
-  server: 13.135.252.176
-  skip-cert-verify: true
-  type: ss
-  udp: true
 - name: "\U0001F1F5\U0001F1F1_PL_\u6CE2\u5170->\U0001F1F3\U0001F1F4_NO_\u632A\u5A01"
+  password: a126f35c-e832-4115-8593-b723ade3f7be
+  port: 20085
+  server: hkdcrtc-e.catcat321.com
+  skip-cert-verify: true
+  sni: hk.catxstar.com
+  tls: false
+  type: trojan
+  udp: true
+- name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD"
+  network: ws
+  port: 8080
+  server: 40.160.68.79
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 11af1c47-865a-47c6-92ff-118013655d78
+- name: "\U0001F1F5\U0001F1F1_PL_\u6CE2\u5170->\U0001F1F3\U0001F1F4_NO_\u632A\u5A01\
+    _1"
   password: a126f35c-e832-4115-8593-b723ade3f7be
   port: 20085
   server: kkvlvvq-a.catcat321.com
@@ -111,34 +27,6 @@ proxies:
   tls: false
   type: trojan
   udp: true
-- name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD"
-  port: 12528
-  server: 120.227.1.43
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: f0169b08-43fd-4dc3-8195-18f6ad2fe39d
-- alterId: 64
-  cipher: auto
-  name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD_1"
-  port: 50002
-  server: 112.132.215.108
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 2
-  cipher: auto
-  name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1EB\U0001F1F7_FR_\u6CD5\u56FD"
-  port: 30835
-  server: v35.hdacd.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - client-fingerprint: qq
   flow: xtls-rprx-vision
   name: "\U0001F1F3\U0001F1F4_NO_\u632A\u5A01"
@@ -153,27 +41,47 @@ proxies:
   type: vless
   udp: true
   uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
-- cipher: aes-256-gcm
-  name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1EF\U0001F1F5_JP_\u65E5\u672C\
-    _2"
-  password: Butterfly123@qwe9527
-  port: 40001
-  server: 103.236.66.4
+- name: "\U0001F1F5\U0001F1F1_PL_\u6CE2\u5170->\U0001F1EE\U0001F1F9_IT_\u610F\u5927\
+    \u5229"
+  password: 7e70223b-f331-41d5-9313-02b8d2df2885
+  port: 20065
+  server: kkvlvvq-a.catcat321.com
   skip-cert-verify: true
-  type: ss
+  sni: hk.catxstar.com
+  tls: false
+  type: trojan
   udp: true
-- cipher: aes-256-cfb
-  name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1EF\U0001F1F5_JP_\u65E5\u672C\
-    _3"
-  password: 7eadc6dbe2ae
-  port: 65443
-  server: 121.46.230.136
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: "\U0001F1E9\U0001F1F0_DK_\u4E39\u9EA6"
+  port: 443
+  reality-opts:
+    public-key: dhLgVSqPBDrdbhyTS2j60LWZDGEZh-smkcjUNSic-WI
+    short-id: a1b2c3d4
+  server: 46.29.235.9
+  servername: telegraf.lv
   skip-cert-verify: true
-  type: ss
+  tls: true
+  type: vless
   udp: true
+  uuid: d67af820-f54c-48ab-862c-19086357f276
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: "\U0001F1F1\U0001F1FB_LV_\u62C9\u8131\u7EF4\u4E9A"
+  port: 443
+  reality-opts:
+    public-key: m6RDw1b8R4lCaRUIzhHpy6TtX2Dhk6nyby8dWzeQqA0
+    short-id: dd3ff38418d29d22
+  server: 195.123.210.168
+  servername: eu-west.cendora.ru
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
 - alterId: 2
   cipher: auto
-  name: "\U0001F1ED\U0001F1F0_HK_\u4E2D\u56FD\u9999\u6E2F_1"
+  name: "\U0001F1ED\U0001F1F0_HK_\u4E2D\u56FD\u9999\u6E2F"
   port: 30807
   server: v10.zgtfqs.click
   skip-cert-verify: true
@@ -183,55 +91,25 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_1"
-  port: 443
-  server: 23.95.248.105
-  servername: 23.95.248.105
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-- cipher: aes-256-cfb
-  name: "\U0001F1F9\U0001F1ED_TH_\u6CF0\u56FD"
-  password: 7eadc6dbe2ae
-  port: 65443
-  server: 103.169.67.34
-  skip-cert-verify: true
-  type: ss
-  udp: true
-- name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD"
-  port: 58011
-  server: us22.sofast.live
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 0afc6426-606c-48e7-bd70-3c424a416842
-- alterId: 2
-  cipher: auto
-  name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD"
-  port: 30833
-  server: v33.hdacd.com
+  name: "\U0001F1ED\U0001F1F0_HK_\u4E2D\u56FD\u9999\u6E2F_1"
+  network: ws
+  port: 16632
+  server: planb.mojcn.com.linuxlh.xin
+  servername: 407a2bc6d452ff93e6d7b73078539d9e.mobgslb.tbcache.com
   skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  uuid: 97c638c6-86d5-4cf6-b70b-114c6809b637
+  ws-opts:
+    headers:
+      Host: 407a2bc6d452ff93e6d7b73078539d9e.mobgslb.tbcache.com
+    path: /
 - cipher: aes-256-gcm
-  name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1ED\U0001F1F0_HK_\u4E2D\u56FD\
-    \u9999\u6E2F_1"
+  name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1EF\U0001F1F5_JP_\u65E5\u672C"
   password: Butterfly123@qwe9527
-  port: 10006
-  server: 36.33.35.105
-  skip-cert-verify: true
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: "\U0001F1EC\U0001F1E7_GB_\u82F1\u56FD_1"
-  password: amazonskr05
-  port: 443
-  server: 13.135.73.3
+  port: 40001
+  server: 103.236.66.4
   skip-cert-verify: true
   type: ss
   udp: true
@@ -244,33 +122,13 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD\
-    _1"
+  name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD"
   password: Butterfly123@qwe9527
-  port: 50001
+  port: 50003
   server: 103.236.66.4
   skip-cert-verify: true
   type: ss
   udp: true
-- cipher: aes-256-cfb
-  name: "\U0001F1EC\U0001F1E7_GB_\u82F1\u56FD_2"
-  password: amazonskr05
-  port: 443
-  server: 18.175.227.220
-  skip-cert-verify: true
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_2"
-  network: ws
-  port: 443
-  server: rush-6it6b.teeopp.quest
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
 - encryption: mlkem768x25519plus.native.0rtt.NZBih2jIVFR24bMMX7i-Q9XE3oESSooOHSeDvnjP3fc0EaqCVMWndYUo6mUakYN2ZaYHVZofOZsanhV2ZNoFVOcvfKo7RybJVza0Y6ZT1ogxe1G72XUauZxaUwQ3m3YrapuNA8VPQ-yHZSiDnpC04QQKnAA_5sNGprfLGbM56-QRiqC9FvMpqpCZe_YOg7ZcZkatqEU-Z_a4fWs_xtOmzAUlkJPGCbye7jCeWkjF6aML4he3dGxyn6esW2QHQuoU_HJizXSvvCyOwwKq0INO-UDCoXISlGZwrqtu0Dexw-yGZJgQb5pGrPpnMYYCgcO1w9I_DPw1q4pcCFBnOwiceuy8Wuum3vViqrUBrGU0lIxH7NXPiMKM0wyXMZpjRUc
   name: ge-20b81e.atlanta-api.com
   port: 443
@@ -280,3 +138,65 @@ proxies:
   type: vless
   udp: true
   uuid: 74099b9e-52fd-4540-b642-b8d60f3b5a2a
+- name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD"
+  port: 52683
+  server: jp.sofast.live
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 399b6b23-cc40-4831-a494-61948e2df133
+- name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_1"
+  port: 10000
+  server: 180.178.60.254
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: caec0d8d-ab2f-4247-b97d-7fb1a34ab195
+- cipher: aes-256-gcm
+  name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD_1"
+  password: Butterfly123@qwe9527
+  port: 40002
+  server: 103.236.66.4
+  skip-cert-verify: true
+  type: ss
+  udp: true
+- alterId: 2
+  cipher: auto
+  name: "\U0001F1ED\U0001F1F0_HK_\u4E2D\u56FD\u9999\u6E2F_2"
+  port: 30807
+  server: v10.hdacd.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- cipher: aes-256-gcm
+  name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD_2"
+  password: Butterfly123@qwe9527
+  port: 10001
+  server: 103.236.66.4
+  skip-cert-verify: true
+  type: ss
+  udp: true
+- name: "\U0001F1F5\U0001F1F1_PL_\u6CE2\u5170->\U0001F1FA\U0001F1E6_UA_\u4E4C\u514B\
+    \u5170"
+  password: a126f35c-e832-4115-8593-b723ade3f7be
+  port: 20066
+  server: hkdcrtc-e.catcat321.com
+  skip-cert-verify: true
+  sni: hk.catxstar.com
+  tls: false
+  type: trojan
+  udp: true
+- name: "\U0001F1F5\U0001F1F1_PL_\u6CE2\u5170->\U0001F1FA\U0001F1E6_UA_\u4E4C\u514B\
+    \u5170_1"
+  password: a126f35c-e832-4115-8593-b723ade3f7be
+  port: 20066
+  server: kkvlvvq-a.catcat321.com
+  skip-cert-verify: true
+  sni: hk.catxstar.com
+  tls: false
+  type: trojan
+  udp: true
