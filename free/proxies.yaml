@@ -1,15 +1,92 @@
 proxies:
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: "\U0001F1EC\U0001F1E7_GB_\u82F1\u56FD"
+  port: 443
+  server: viper-21.moriarty-web.com
+  servername: viper-21.moriarty-web.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: cd3bb7d9-7df3-4644-ac05-c260990ac277
 - alterId: 2
   cipher: auto
-  name: "\U0001F1ED\U0001F1F0_HK_\u4E2D\u56FD\u9999\u6E2F->\U0001F1EC\U0001F1E7_GB_\u82F1\
+  name: "\U0001F1ED\U0001F1F0_HK_\u4E2D\u56FD\u9999\u6E2F->\U0001F1E9\U0001F1EA_DE_\u5FB7\
     \u56FD"
-  port: 30836
-  server: v36.hdacd.com
+  port: 30833
+  server: v33.hdacd.com
   skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD"
+  port: 58011
+  server: us22.sofast.live
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0afc6426-606c-48e7-bd70-3c424a416842
+- cipher: aes-256-cfb
+  name: "\U0001F1EC\U0001F1E7_GB_\u82F1\u56FD_1"
+  password: amazonskr05
+  port: 443
+  server: 35.178.200.252
+  skip-cert-verify: true
+  type: ss
+  udp: true
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: "\U0001F1F5\U0001F1F1_PL_\u6CE2\u5170"
+  port: 443
+  server: 50.7.249.178
+  servername: pl2-ded.moritech.net
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: cd3bb7d9-7df3-4644-ac05-c260990ac277
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: "\U0001F1EB\U0001F1F7_FR_\u6CD5\u56FD->\U0001F1F5\U0001F1F1_PL_\u6CE2\u5170"
+  port: 443
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  server: bridge2.kolhoz.fuck-rkn.xyz
+  servername: jobinvest.ru
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ef5f6054-61c7-4ce8-a35b-dbcec449f242
+- name: "\U0001F1EF\U0001F1F5_JP_\u65E5\u672C->\U0001F1E6\U0001F1EB_AF_\u963F\u5BCC\
+    \u6C57"
+  password: ultra@kWZdAzt_IH593eGLRjdxnBZ0
+  port: 10009
+  server: z-jp2.251313.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: trojan
+  udp: true
+- name: "\U0001F1EF\U0001F1F5_JP_\u65E5\u672C->\U0001F1F6\U0001F1E6_QA_\u5361\u5854\
+    \u5C14"
+  password: ultra@kWZdAzt_IH593eGLRjdxnBZ0
+  port: 10008
+  server: z-jp2.251313.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: trojan
+  udp: true
+- cipher: aes-256-cfb
+  name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD"
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 121.46.230.232
+  skip-cert-verify: true
+  type: ss
+  udp: true
 - cipher: aes-256-cfb
   name: "\U0001F1F9\U0001F1ED_TH_\u6CF0\u56FD"
   password: 7eadc6dbe2ae
@@ -18,254 +95,133 @@ proxies:
   skip-cert-verify: true
   type: ss
   udp: true
-- name: "\U0001F1F9\U0001F1FC_TW_\u4E2D\u56FD\u53F0\u6E7E->\U0001F1E6\U0001F1FA_AU_\u6FB3\
-    \u5927\u5229\u4E9A"
-  password: i99Cef
-  port: 28161
-  server: 211.20.156.191
+- cipher: aes-256-cfb
+  name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1EF\U0001F1F5_JP_\u65E5\u672C"
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 121.46.230.137
   skip-cert-verify: true
-  sni: download.windowsupdate.com
+  type: ss
+  udp: true
+- name: "\U0001F1F8\U0001F1EC_SG_\u65B0\u52A0\u5761->\U0001F1F3\U0001F1F5_NP_\u5C3C\
+    \u6CCA\u5C14"
+  password: ultra@kWZdAzt_IH593eGLRjdxnBZ0
+  port: 10044
+  server: z-sg1.251313.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
   type: trojan
   udp: true
-- alterId: 2
-  cipher: auto
-  name: "\U0001F1ED\U0001F1F0_HK_\u4E2D\u56FD\u9999\u6E2F"
-  port: 30807
-  server: v10.hdacd.com
+- name: "\U0001F1EF\U0001F1F5_JP_\u65E5\u672C->\U0001F1F8\U0001F1E9_SD_\u82CF\u4E39"
+  password: ultra@kWZdAzt_IH593eGLRjdxnBZ0
+  port: 10012
+  server: z-jp2.251313.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: trojan
+  udp: true
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: "\U0001F1F7\U0001F1FA_RU_\u4FC4\u7F57\u65AF->\U0001F1E9\U0001F1EA_DE_\u5FB7\
+    \u56FD"
+  port: 443
+  reality-opts:
+    public-key: BsFRd4pZgH2hK2AmVf6Mv7z2QGmV2LPYbqkT1UqZX30
+    short-id: 4da5d1853f04af6d
+  server: 31.76.71.140
+  servername: rrr.windconnect.pro
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: af00e0c4-decf-48f2-9013-56abe9c9efcd
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: "\U0001F1EB\U0001F1F7_FR_\u6CD5\u56FD->\U0001F1F5\U0001F1F1_PL_\u6CE2\u5170\
+    _1"
+  port: 443
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  server: 31.77.61.214
+  servername: jobinvest.ru
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ef5f6054-61c7-4ce8-a35b-dbcec449f242
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1F3\U0001F1F1_NL_\u8377\u5170"
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 82.38.31.62
+  skip-cert-verify: true
+  type: ss
+  udp: true
+- name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD\
+    _1"
+  port: 52683
+  server: jp.sofast.live
   skip-cert-verify: true
   tls: false
-  type: vmess
+  type: vless
   udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: "\U0001F1ED\U0001F1F0_HK_\u4E2D\u56FD\u9999\u6E2F->\U0001F1FA\U0001F1F8_US_\u7F8E\
-    \u56FD"
-  password: i99Cef
-  port: 28125
-  server: 209.248.32.116
+  uuid: 399b6b23-cc40-4831-a494-61948e2df133
+- client-fingerprint: chrome
+  name: "\U0001F1F5\U0001F1F1_PL_\u6CE2\u5170->\U0001F1F3\U0001F1F1_NL_\u8377\u5170"
+  network: ws
+  port: 2087
+  server: 178.95.170.83
   skip-cert-verify: true
-  sni: ctldl.windowsupdate.com
-  type: trojan
+  tls: false
+  type: vless
   udp: true
-- name: "\U0001F1ED\U0001F1F0_HK_\u4E2D\u56FD\u9999\u6E2F->\U0001F1EF\U0001F1F5_JP_\u65E5\
-    \u672C"
-  password: i99Cef
-  port: 28104
-  server: 209.248.32.116
+  uuid: bf443e4a-aa9e-4509-abf0-d0f6828d57be
+  ws-opts:
+    path: /4bc027a44532
+- cipher: aes-256-cfb
+  name: "\U0001F1EB\U0001F1F7_FR_\u6CD5\u56FD"
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 95.170.13.47
   skip-cert-verify: true
-  sni: ctldl.windowsupdate.com
-  type: trojan
-  udp: true
-- name: "\U0001F1ED\U0001F1F0_HK_\u4E2D\u56FD\u9999\u6E2F->\U0001F1EA\U0001F1F8_ES_\u897F\
-    \u73ED\u7259"
-  password: i99Cef
-  port: 28165
-  server: 209.248.32.116
-  skip-cert-verify: true
-  sni: ctldl.windowsupdate.com
-  type: trojan
-  udp: true
-- name: "\U0001F1F9\U0001F1FC_TW_\u4E2D\u56FD\u53F0\u6E7E->\U0001F1E9\U0001F1EA_DE_\u5FB7\
-    \u56FD"
-  password: i99Cef
-  port: 28159
-  server: 211.20.156.191
-  skip-cert-verify: true
-  sni: download.windowsupdate.com
-  type: trojan
-  udp: true
-- name: "\U0001F1ED\U0001F1F0_HK_\u4E2D\u56FD\u9999\u6E2F->\U0001F1F2\U0001F1FD_MX_\u58A8\
-    \u897F\u54E5"
-  password: i99Cef
-  port: 28121
-  server: 209.248.32.116
-  skip-cert-verify: true
-  sni: ctldl.windowsupdate.com
-  type: trojan
-  udp: true
-- name: "\U0001F1F9\U0001F1FC_TW_\u4E2D\u56FD\u53F0\u6E7E->\U0001F1EB\U0001F1F7_FR_\u6CD5\
-    \u56FD"
-  password: i99Cef
-  port: 28155
-  server: 211.20.156.191
-  skip-cert-verify: true
-  sni: download.windowsupdate.com
-  type: trojan
-  udp: true
-- name: "\U0001F1ED\U0001F1F0_HK_\u4E2D\u56FD\u9999\u6E2F->\U0001F1EE\U0001F1F9_IT_\u610F\
-    \u5927\u5229"
-  password: i99Cef
-  port: 28166
-  server: 209.248.32.116
-  skip-cert-verify: true
-  sni: ctldl.windowsupdate.com
-  type: trojan
-  udp: true
-- name: "\U0001F1ED\U0001F1F0_HK_\u4E2D\u56FD\u9999\u6E2F->\U0001F1E9\U0001F1EA_DE_\u5FB7\
-    \u56FD"
-  password: i99Cef
-  port: 28159
-  server: 209.248.32.116
-  skip-cert-verify: true
-  sni: download.windowsupdate.com
-  type: trojan
-  udp: true
-- name: "\U0001F1ED\U0001F1F0_HK_\u4E2D\u56FD\u9999\u6E2F->\U0001F1FF\U0001F1E6_ZA_\u5357\
-    \u975E"
-  password: i99Cef
-  port: 28144
-  server: 209.248.32.116
-  skip-cert-verify: true
-  sni: ctldl.windowsupdate.com
-  type: trojan
+  type: ss
   udp: true
 - client-fingerprint: chrome
   name: "\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD"
   network: ws
   port: 2087
-  server: 163.8.195.241
+  server: 188.220.67.245
   skip-cert-verify: true
   tls: false
   type: vless
   udp: true
-  uuid: 56ba5d34-ef22-4ba6-8090-4188b807df54
+  uuid: 90da514d-8888-4a53-912e-ac2981c8c6ee
   ws-opts:
-    path: /29c8fed7ca22
-- name: "\U0001F1ED\U0001F1F0_HK_\u4E2D\u56FD\u9999\u6E2F->\U0001F1EF\U0001F1F5_JP_\u65E5\
-    \u672C_1"
-  password: i99Cef
-  port: 28105
-  server: 209.248.32.116
-  skip-cert-verify: true
-  sni: ctldl.windowsupdate.com
-  type: trojan
-  udp: true
-- name: "\U0001F1F9\U0001F1FC_TW_\u4E2D\u56FD\u53F0\u6E7E->\U0001F1F0\U0001F1F7_KR_\u97E9\
-    \u56FD"
-  password: i99Cef
-  port: 28156
-  server: 211.20.156.191
-  skip-cert-verify: true
-  sni: ctldl.windowsupdate.com
-  type: trojan
-  udp: true
-- name: "\U0001F1ED\U0001F1F0_HK_\u4E2D\u56FD\u9999\u6E2F->\U0001F1E7\U0001F1F7_BR_\u5DF4\
-    \u897F"
-  password: i99Cef
-  port: 28145
-  server: 209.248.32.116
-  skip-cert-verify: true
-  sni: ctldl.windowsupdate.com
-  type: trojan
-  udp: true
-- name: "\U0001F1EF\U0001F1F5_JP_\u65E5\u672C"
-  password: i99Cef
-  port: 27242
-  server: 45.32.57.242
-  skip-cert-verify: true
-  sni: download.windowsupdate.com
-  type: trojan
-  udp: true
-- name: "\U0001F1F9\U0001F1FC_TW_\u4E2D\u56FD\u53F0\u6E7E->\U0001F1EF\U0001F1F5_JP_\u65E5\
-    \u672C"
-  password: i99Cef
-  port: 28122
-  server: 211.20.156.191
-  skip-cert-verify: true
-  sni: ctldl.windowsupdate.com
-  type: trojan
-  udp: true
-- alterId: 0
+    path: /8f2690e2d016
+- alterId: 64
   cipher: auto
-  name: "\U0001F1F3\U0001F1F1_NL_\u8377\u5170"
-  network: ws
-  port: 33736
-  server: 78.17.71.236
+  name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD_1"
+  port: 50002
+  server: 112.132.215.108
   skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
-  uuid: b3a11068-1a7e-4643-85de-7c82cce46943
-  ws-opts:
-    path: /vmess-ws
-- alterId: 2
-  cipher: auto
-  name: "\U0001F1ED\U0001F1F0_HK_\u4E2D\u56FD\u9999\u6E2F->\U0001F1E9\U0001F1EA_DE_\u5FB7\
-    \u56FD_1"
-  port: 30833
-  server: v33.hdacd.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: aes-256-cfb
-  name: "\U0001F1E8\U0001F1E6_CA_\u52A0\u62FF\u5927"
-  password: amazonskr05
-  port: 443
-  server: 35.182.118.89
+  name: "\U0001F1F2\U0001F1FE_MY_\u9A6C\u6765\u897F\u4E9A"
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 118.107.222.231
   skip-cert-verify: true
   type: ss
   udp: true
-- alterId: 2
-  cipher: none
-  name: "\U0001F1ED\U0001F1F0_HK_\u4E2D\u56FD\u9999\u6E2F_1"
-  port: 30807
-  server: v10.zgtfqs.click
+- name: "\U0001F1EF\U0001F1F5_JP_\u65E5\u672C->\U0001F1E6\U0001F1EB_AF_\u963F\u5BCC\
+    \u6C57_1"
+  password: ultra@kWZdAzt_IH593eGLRjdxnBZ0
+  port: 10009
+  server: z-jp1.251313.xyz
   skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: "\U0001F1F9\U0001F1FC_TW_\u4E2D\u56FD\u53F0\u6E7E->\U0001F1EF\U0001F1F5_JP_\u65E5\
-    \u672C_1"
-  password: i99Cef
-  port: 28133
-  server: 211.20.156.191
-  skip-cert-verify: true
-  sni: ctldl.windowsupdate.com
-  type: trojan
-  udp: true
-- name: "\U0001F1F9\U0001F1FC_TW_\u4E2D\u56FD\u53F0\u6E7E->\U0001F1E7\U0001F1F7_BR_\u5DF4\
-    \u897F"
-  password: i99Cef
-  port: 28123
-  server: 211.20.156.191
-  skip-cert-verify: true
-  sni: ctldl.windowsupdate.com
-  type: trojan
-  udp: true
-- name: "\U0001F1ED\U0001F1F0_HK_\u4E2D\u56FD\u9999\u6E2F->\U0001F1EF\U0001F1F5_JP_\u65E5\
-    \u672C_2"
-  password: i99Cef
-  port: 28122
-  server: 209.248.32.116
-  skip-cert-verify: true
-  sni: ctldl.windowsupdate.com
-  type: trojan
-  udp: true
-- name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD"
-  password: i99Cef
-  port: 29739
-  server: 207.246.97.36
-  skip-cert-verify: true
-  sni: download.windowsupdate.com
-  type: trojan
-  udp: true
-- name: "\U0001F1ED\U0001F1F0_HK_\u4E2D\u56FD\u9999\u6E2F->\U0001F1EF\U0001F1F5_JP_\u65E5\
-    \u672C_3"
-  password: i99Cef
-  port: 28126
-  server: 209.248.32.116
-  skip-cert-verify: true
-  sni: ctldl.windowsupdate.com
-  type: trojan
-  udp: true
-- name: "\U0001F1F9\U0001F1FC_TW_\u4E2D\u56FD\u53F0\u6E7E->\U0001F1E8\U0001F1E6_CA_\u52A0\
-    \u62FF\u5927"
-  password: i99Cef
-  port: 28152
-  server: 211.20.156.191
-  skip-cert-verify: true
-  sni: download.windowsupdate.com
+  sni: www.cloudflare.com
   type: trojan
   udp: true
