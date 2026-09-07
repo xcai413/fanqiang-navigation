@@ -1,33 +1,106 @@
 proxies:
-- client-fingerprint: chrome
-  name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD"
-  port: 58011
-  server: us22.sofast.live
+- alterId: 2
+  cipher: auto
+  name: "\U0001F1EF\U0001F1F5_JP_\u65E5\u672C->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD"
+  port: 30833
+  server: v33.hdacd.com
   skip-cert-verify: true
   tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: "\U0001F1EE\U0001F1F3_IN_\u5370\u5EA6"
+  password: 6390e4f6-fdc8-46eb-b474-805cf3d80439
+  port: 51000
+  server: 141.148.222.181
+  skip-cert-verify: true
+  sni: cn.cremedelamer.com
+  type: hysteria2
+  udp: true
+- alterId: 64
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD"
+  port: 50002
+  server: 112.132.215.108
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 2
+  cipher: auto
+  name: "\U0001F1ED\U0001F1F0_HK_\u4E2D\u56FD\u9999\u6E2F->\U0001F1FA\U0001F1F8_US_\u7F8E\
+    \u56FD"
+  port: 30829
+  server: v29.hdacd.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- flow: xtls-rprx-vision
+  name: "\U0001F1F5\U0001F1F1_PL_\u6CE2\u5170"
+  port: 443
+  server: pl4.moritech.net
+  skip-cert-verify: true
+  tls: true
   type: vless
   udp: true
-  uuid: 0afc6426-606c-48e7-bd70-3c424a416842
+  uuid: cd3bb7d9-7df3-4644-ac05-c260990ac277
 - cipher: aes-256-cfb
-  name: "\U0001F1F9\U0001F1ED_TH_\u6CF0\u56FD"
+  name: "\U0001F1EB\U0001F1F7_FR_\u6CD5\u56FD"
   password: 7eadc6dbe2ae
   port: 65443
-  server: 103.169.67.34
+  server: 95.170.13.47
   skip-cert-verify: true
   type: ss
   udp: true
+- alterId: 2
+  cipher: auto
+  name: "\U0001F1ED\U0001F1F0_HK_\u4E2D\u56FD\u9999\u6E2F->\U0001F1FA\U0001F1F8_US_\u7F8E\
+    \u56FD_1"
+  port: 30804
+  server: v4.hdacd.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - client-fingerprint: chrome
-  name: "\U0001F1F5\U0001F1F1_PL_\u6CE2\u5170->\U0001F1F3\U0001F1F1_NL_\u8377\u5170"
+  name: "\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD"
   network: ws
   port: 2087
-  server: 178.95.170.83
+  server: 188.220.67.245
   skip-cert-verify: true
   tls: false
   type: vless
   udp: true
-  uuid: bf443e4a-aa9e-4509-abf0-d0f6828d57be
+  uuid: 90da514d-8888-4a53-912e-ac2981c8c6ee
   ws-opts:
-    path: /4bc027a44532
+    path: /8f2690e2d016
+- alterId: 2
+  cipher: auto
+  name: "\U0001F1ED\U0001F1F0_HK_\u4E2D\u56FD\u9999\u6E2F->\U0001F1EC\U0001F1E7_GB_\u82F1\
+    \u56FD"
+  port: 30836
+  server: v36.hdacd.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alpn:
+  - h3
+  auth_str: dongtaiwang.com
+  down: '1000'
+  name: "\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD_1"
+  port: 20088
+  server: 5.83.129.153
+  skip-cert-verify: true
+  sni: apple.com
+  type: hysteria
+  udp: true
+  up: '500'
 - client-fingerprint: chrome
   name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD"
   network: ws
@@ -43,103 +116,36 @@ proxies:
     headers:
       Host: cfvvv-ev1.pages.dev
     path: /
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: "\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD"
-  port: 443
-  reality-opts:
-    public-key: O_YZOJVON0LE1U01hAtNUOVRy7z6fkBUXbMtpCGoGEg
-  server: 176.96.138.122
-  servername: plucky-xenon.cdn.cachefleet.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: b229d38c-35ec-4a0b-9c86-8fceba243d6c
-- alterId: 2
-  cipher: auto
-  name: "\U0001F1ED\U0001F1F0_HK_\u4E2D\u56FD\u9999\u6E2F->\U0001F1E9\U0001F1EA_DE_\u5FB7\
-    \u56FD"
-  port: 30833
-  server: v33.hdacd.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: "\U0001F1F7\U0001F1FA_RU_\u4FC4\u7F57\u65AF->\U0001F1E9\U0001F1EA_DE_\u5FB7\
-    \u56FD"
-  port: 443
-  reality-opts:
-    public-key: BsFRd4pZgH2hK2AmVf6Mv7z2QGmV2LPYbqkT1UqZX30
-    short-id: 4da5d1853f04af6d
-  server: rrr.windconnect.pro
-  servername: rrr.windconnect.pro
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: af00e0c4-decf-48f2-9013-56abe9c9efcd
 - client-fingerprint: chrome
-  name: "\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD_1"
+  name: "\U0001F1F5\U0001F1F1_PL_\u6CE2\u5170->\U0001F1F3\U0001F1F1_NL_\u8377\u5170"
   network: ws
   port: 2087
-  server: 163.8.195.241
+  server: 178.95.170.83
   skip-cert-verify: true
   tls: false
   type: vless
   udp: true
-  uuid: 56ba5d34-ef22-4ba6-8090-4188b807df54
+  uuid: bf443e4a-aa9e-4509-abf0-d0f6828d57be
   ws-opts:
-    path: /29c8fed7ca22
+    path: /4bc027a44532
 - cipher: aes-256-cfb
-  name: "\U0001F1EB\U0001F1F7_FR_\u6CD5\u56FD"
+  name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1EF\U0001F1F5_JP_\u65E5\u672C"
   password: 7eadc6dbe2ae
   port: 65443
-  server: 95.170.13.47
+  server: 121.46.230.137
   skip-cert-verify: true
   type: ss
   udp: true
-- alterId: 1
+- alterId: 0
   cipher: auto
-  name: "\U0001F1EF\U0001F1F5_JP_\u65E5\u672C"
-  port: 447
-  server: 7db5z0h-g04.jp04-1d-vm0.entry.fr0528.art
+  name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD_1"
+  port: 2648
+  server: 150.242.244.116
   skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
-  uuid: c2c30cdc-e150-36b4-b611-020e6b2f2cb2
-- name: "\U0001F1EF\U0001F1F5_JP_\u65E5\u672C->\U0001F1E6\U0001F1FF_AZ_\u963F\u585E\
-    \u62DC\u7586"
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
-  port: 2035
-  server: bt5iibdl.zf-mix-2.9999231.xyz
-  skip-cert-verify: true
-  sni: az-wy.9999231.xyz
-  type: hysteria2
-  udp: true
-- alterId: 64
-  cipher: auto
-  name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD"
-  port: 50002
-  server: 112.132.215.108
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_1"
-  password: 0871d987-8f52-4292-a138-b2dd7ce4140f
-  port: 48665
-  server: us01zl.poke-mon.xyz
-  skip-cert-verify: true
-  type: hysteria2
-  udp: true
+  uuid: aeff933f-0ae6-4465-85bf-12f1394f35af
 - alterId: 0
   cipher: auto
   name: "\U0001F1ED\U0001F1F0_HK_\u4E2D\u56FD\u9999\u6E2F"
@@ -151,39 +157,26 @@ proxies:
   type: vmess
   udp: true
   uuid: 116f6ecd-275e-4b50-921d-780e78a526cb
-- alterId: 2
-  cipher: auto
-  name: "\U0001F1ED\U0001F1F0_HK_\u4E2D\u56FD\u9999\u6E2F->\U0001F1EC\U0001F1E7_GB_\u82F1\
-    \u56FD"
-  port: 30836
-  server: v36.hdacd.com
+  ws-opts:
+    headers:
+      Host: pull.free.video.10010.com
+    path: /
+- cipher: aes-256-cfb
+  name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1F0\U0001F1F7_KR_\u97E9\u56FD"
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 121.46.230.138
   skip-cert-verify: true
-  tls: false
-  type: vmess
+  type: ss
   udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: "\U0001F1EF\U0001F1F5_JP_\u65E5\u672C->\U0001F1F7\U0001F1F4_RO_\u7F57\u9A6C\
-    \u5C3C\u4E9A"
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
-  port: 2039
-  server: vmt2k5g7.zf-mix-2.9999231.xyz
+- cipher: aes-256-cfb
+  name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD"
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 121.46.230.232
   skip-cert-verify: true
-  sni: ro-wy.9999231.xyz
-  type: hysteria2
+  type: ss
   udp: true
-- alterId: 2
-  cipher: auto
-  name: "\U0001F1ED\U0001F1F0_HK_\u4E2D\u56FD\u9999\u6E2F->\U0001F1FA\U0001F1F8_US_\u7F8E\
-    \u56FD"
-  port: 30804
-  server: v4.hdacd.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - cipher: aes-256-cfb
   name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD\
     _1"
@@ -193,39 +186,74 @@ proxies:
   skip-cert-verify: true
   type: ss
   udp: true
-- name: "\U0001F1EB\U0001F1F7_FR_\u6CD5\u56FD_1"
-  obfs: salamander
-  obfs-password: '@arshiacomplus'
-  password: vlxjqoiauby22dvb
+- client-fingerprint: qq
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD->\U0001F1EB\U0001F1F7_FR_\u6CD5\u56FD"
+  network: ws
   port: 443
-  server: n.acp.us.ci
-  skip-cert-verify: true
-  sni: n.acp.us.ci
-  type: hysteria2
-  udp: true
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: "\U0001F1F7\U0001F1FA_RU_\u4FC4\u7F57\u65AF->\U0001F1E9\U0001F1EA_DE_\u5FB7\
-    \u56FD_1"
-  port: 443
-  reality-opts:
-    public-key: BsFRd4pZgH2hK2AmVf6Mv7z2QGmV2LPYbqkT1UqZX30
-    short-id: 4da5d1853f04af6d
-  server: 31.76.71.140
-  servername: rrr.windconnect.pro
+  server: ziro.skin
+  servername: ziro.skin
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: af00e0c4-decf-48f2-9013-56abe9c9efcd
-- alterId: 2
-  cipher: auto
-  name: "\U0001F1ED\U0001F1F0_HK_\u4E2D\u56FD\u9999\u6E2F->\U0001F1FA\U0001F1F8_US_\u7F8E\
-    \u56FD_1"
-  port: 30829
-  server: v29.hdacd.com
+  uuid: f028a8c0-6763-4558-aee3-2563db9d7825
+  ws-opts:
+    path: /xxvclws
+- name: "\U0001F1EF\U0001F1F5_JP_\u65E5\u672C->\U0001F1E6\U0001F1FF_AZ_\u963F\u585E\
+    \u62DC\u7586"
+  obfs: salamander
+  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
+  password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
+  port: 2035
+  server: 6v2tii2i.zf-mix-1.9999231.xyz
+  skip-cert-verify: true
+  sni: az-wy.9999231.xyz
+  type: hysteria2
+  udp: true
+- name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD\
+    _2"
+  port: 58011
+  server: us22.sofast.live
   skip-cert-verify: true
   tls: false
-  type: vmess
+  type: vless
   udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  uuid: 0afc6426-606c-48e7-bd70-3c424a416842
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: "\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD_2"
+  port: 443
+  reality-opts:
+    public-key: 1sSmdw90uTiGuitDvp_q8zcXTcHXKQS3IVjA7T1UNiY
+  server: 2.59.134.226
+  servername: rich-falcon.cdn.cachefleet.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 88281d02-b387-4fe3-918e-26ed331e6d08
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: "\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD_3"
+  port: 443
+  reality-opts:
+    public-key: O_YZOJVON0LE1U01hAtNUOVRy7z6fkBUXbMtpCGoGEg
+  server: 176.96.138.122
+  servername: plucky-xenon.cdn.cachefleet.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: b229d38c-35ec-4a0b-9c86-8fceba243d6c
+- client-fingerprint: chrome
+  name: "\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD_4"
+  network: ws
+  port: 2087
+  server: 163.8.195.241
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 56ba5d34-ef22-4ba6-8090-4188b807df54
+  ws-opts:
+    path: /29c8fed7ca22
